@@ -1,0 +1,81 @@
+{
+  "Examples": [
+    {
+      "Order": 1,
+      "Title": "Auth:Jwt.Login",
+      "Slug": "auth-jwt-login-api-v1-auth-jwt-login-post",
+      "Description": "Generated from OpenAPI examples.",
+      "Language": "http",
+      "Code": "### Auth:Jwt.Login\n# @name auth_jwt_login_api_v1_auth_jwt_login_post\nPOST {{host}}/api/v1/auth/jwt/login\nAuthorization: Bearer {{token}}\nContent-Type: application/x-www-form-urlencoded\nAccept: application/json\n\n## Responses\n# 200\n# Description: Successful Response\n# Content-Type: application/json\n# 400\n# Description: Bad Request\n# Content-Type: application/json\n# 422\n# Description: Validation Error\n# Content-Type: application/json",
+      "Format": "http",
+      "OperationId": "auth_jwt_login_api_v1_auth_jwt_login_post",
+      "Setup": null
+    },
+    {
+      "Order": 2,
+      "Title": "Callback",
+      "Slug": "callback-api-v1-auth-google-callback-get",
+      "Description": "The response varies based on the authentication backend used.",
+      "Language": "csharp",
+      "Code": "using var client = new PresentonClient(apiKey);\nvar response = await client.Auth.CallbackApiV1AuthGoogleCallbackGetAsync();",
+      "Format": "sdk",
+      "OperationId": "callback_api_v1_auth_google_callback_get",
+      "Setup": "This example assumes \u0060using Presenton;\u0060 is in scope and \u0060apiKey\u0060 contains the required credential."
+    },
+    {
+      "Order": 3,
+      "Title": "Register:Register",
+      "Slug": "register-register-api-v1-auth-register-post",
+      "Description": "Generated from OpenAPI examples.",
+      "Language": "http",
+      "Code": "### Register:Register\n# @name register_register_api_v1_auth_register_post\nPOST {{host}}/api/v1/auth/register\nAuthorization: Bearer {{token}}\nContent-Type: application/json\nAccept: application/json\n\n{\n  \u0022email\u0022: \u0022user@example.com\u0022,\n  \u0022password\u0022: \u0022string\u0022,\n  \u0022is_active\u0022: true,\n  \u0022is_superuser\u0022: false,\n  \u0022is_verified\u0022: false,\n  \u0022name\u0022: \u0022string\u0022,\n  \u0022enterprise\u0022: \u0022string\u0022\n}\n\n## Responses\n# 201\n# Description: Successful Response\n# Content-Type: application/json\n# 400\n# Description: Bad Request\n# Content-Type: application/json\n# 422\n# Description: Validation Error\n# Content-Type: application/json",
+      "Format": "http",
+      "OperationId": "register_register_api_v1_auth_register_post",
+      "Setup": null
+    },
+    {
+      "Order": 4,
+      "Title": "Reset:Reset Password",
+      "Slug": "reset-reset-password-api-v1-auth-reset-password-post",
+      "Description": "Generated from OpenAPI examples.",
+      "Language": "http",
+      "Code": "### Reset:Reset Password\n# @name reset_reset_password_api_v1_auth_reset_password_post\nPOST {{host}}/api/v1/auth/reset-password\nAuthorization: Bearer {{token}}\nContent-Type: application/json\nAccept: application/json\n\n{\n  \u0022token\u0022: \u0022string\u0022,\n  \u0022password\u0022: \u0022string\u0022\n}\n\n## Responses\n# 200\n# Description: Successful Response\n# Content-Type: application/json\n# 400\n# Description: Bad Request\n# Content-Type: application/json\n# 422\n# Description: Validation Error\n# Content-Type: application/json",
+      "Format": "http",
+      "OperationId": "reset_reset_password_api_v1_auth_reset_password_post",
+      "Setup": null
+    },
+    {
+      "Order": 5,
+      "Title": "Users:Patch Current User",
+      "Slug": "users-patch-current-user-api-v1-auth-users-me-patch",
+      "Description": "Generated from OpenAPI examples.",
+      "Language": "http",
+      "Code": "### Users:Patch Current User\n# @name users_patch_current_user_api_v1_auth_users_me_patch\nPATCH {{host}}/api/v1/auth/users/me\nAuthorization: Bearer {{token}}\nContent-Type: application/json\nAccept: application/json\n\n{\n  \u0022name\u0022: \u0022string\u0022\n}\n\n## Responses\n# 200\n# Description: Successful Response\n# Content-Type: application/json\n# 400\n# Description: Bad Request\n# Content-Type: application/json\n# 401\n# Description: Missing token or inactive user.\n# 422\n# Description: Validation Error\n# Content-Type: application/json",
+      "Format": "http",
+      "OperationId": "users_patch_current_user_api_v1_auth_users_me_patch",
+      "Setup": null
+    },
+    {
+      "Order": 6,
+      "Title": "Users:Patch User",
+      "Slug": "users-patch-user-api-v1-auth-users-id-patch",
+      "Description": "Generated from OpenAPI examples.",
+      "Language": "http",
+      "Code": "### Users:Patch User\n# @name users_patch_user_api_v1_auth_users__id__patch\nPATCH {{host}}/api/v1/auth/users/{{id}}\nAuthorization: Bearer {{token}}\nContent-Type: application/json\nAccept: application/json\n\n{\n  \u0022name\u0022: \u0022string\u0022\n}\n\n## Responses\n# 200\n# Description: Successful Response\n# Content-Type: application/json\n# 400\n# Description: Bad Request\n# Content-Type: application/json\n# 401\n# Description: Missing token or inactive user.\n# 403\n# Description: Not a superuser.\n# 404\n# Description: The user does not exist.\n# 422\n# Description: Validation Error\n# Content-Type: application/json",
+      "Format": "http",
+      "OperationId": "users_patch_user_api_v1_auth_users__id__patch",
+      "Setup": null
+    },
+    {
+      "Order": 7,
+      "Title": "Verify:Verify",
+      "Slug": "verify-verify-api-v1-auth-verify-post",
+      "Description": "Generated from OpenAPI examples.",
+      "Language": "http",
+      "Code": "### Verify:Verify\n# @name verify_verify_api_v1_auth_verify_post\nPOST {{host}}/api/v1/auth/verify\nAuthorization: Bearer {{token}}\nContent-Type: application/json\nAccept: application/json\n\n{\n  \u0022token\u0022: \u0022string\u0022\n}\n\n## Responses\n# 200\n# Description: Successful Response\n# Content-Type: application/json\n# 400\n# Description: Bad Request\n# Content-Type: application/json\n# 422\n# Description: Validation Error\n# Content-Type: application/json",
+      "Format": "http",
+      "OperationId": "verify_verify_api_v1_auth_verify_post",
+      "Setup": null
+    }
+  ]
+}
