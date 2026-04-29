@@ -124,7 +124,7 @@ namespace Presenton
                 PrepareStreamHtmlEditApiV1PptHtmlEditStreamSessionIdGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    sessionId: sessionId);
+                    sessionId: sessionId!);
 
                 return __httpRequest;
             }

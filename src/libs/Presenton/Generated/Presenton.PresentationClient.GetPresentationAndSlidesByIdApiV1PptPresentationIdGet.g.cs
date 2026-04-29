@@ -127,7 +127,7 @@ namespace Presenton
                 PrepareGetPresentationAndSlidesByIdApiV1PptPresentationIdGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id);
+                    id: id!);
 
                 return __httpRequest;
             }

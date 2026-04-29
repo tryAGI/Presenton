@@ -124,7 +124,7 @@ namespace Presenton
                 PrepareGetPresentationForUiApiV1PptPresentationIdUiGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id);
+                    id: id!);
 
                 return __httpRequest;
             }

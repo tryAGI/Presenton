@@ -126,7 +126,7 @@ namespace Presenton
                 PrepareGetLayoutsApiV1PptTemplateTemplateIdLayoutsGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    templateId: templateId);
+                    templateId: templateId!);
 
                 return __httpRequest;
             }

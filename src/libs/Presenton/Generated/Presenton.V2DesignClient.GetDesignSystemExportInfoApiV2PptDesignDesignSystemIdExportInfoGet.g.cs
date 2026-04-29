@@ -124,7 +124,7 @@ namespace Presenton
                 PrepareGetDesignSystemExportInfoApiV2PptDesignDesignSystemIdExportInfoGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    designSystemId: designSystemId);
+                    designSystemId: designSystemId!);
 
                 return __httpRequest;
             }

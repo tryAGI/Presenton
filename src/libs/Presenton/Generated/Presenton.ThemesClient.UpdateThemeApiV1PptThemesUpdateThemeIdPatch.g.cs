@@ -138,7 +138,7 @@ namespace Presenton
                 PrepareUpdateThemeApiV1PptThemesUpdateThemeIdPatchRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    themeId: themeId,
+                    themeId: themeId!,
                     request: request);
 
                 return __httpRequest;

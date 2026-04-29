@@ -132,7 +132,7 @@ namespace Presenton
                 PrepareGetLayoutsApiV1PptTemplateManagementGetTemplatesPresentationGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    presentation: presentation);
+                    presentation: presentation!);
 
                 return __httpRequest;
             }

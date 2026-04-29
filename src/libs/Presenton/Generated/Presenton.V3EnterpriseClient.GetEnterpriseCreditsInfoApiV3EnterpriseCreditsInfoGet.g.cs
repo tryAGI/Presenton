@@ -129,7 +129,7 @@ namespace Presenton
                 PrepareGetEnterpriseCreditsInfoApiV3EnterpriseCreditsInfoGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    enterprise: enterprise);
+                    enterprise: enterprise!);
 
                 return __httpRequest;
             }

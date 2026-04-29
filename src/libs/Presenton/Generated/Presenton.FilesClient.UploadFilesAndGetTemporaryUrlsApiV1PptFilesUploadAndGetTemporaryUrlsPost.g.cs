@@ -121,7 +121,7 @@ namespace Presenton
                             {
 
                                 __httpRequestContent.Add(
-                                    content: new global::System.Net.Http.StringContent($"{request.Files}"),
+                                    content: new global::System.Net.Http.StringContent(request.Files.ToString() ?? string.Empty),
                                     name: "\"files\"");
                             }
                             __httpRequest.Content = __httpRequestContent;
