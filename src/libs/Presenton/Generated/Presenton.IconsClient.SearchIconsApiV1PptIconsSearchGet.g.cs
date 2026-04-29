@@ -135,7 +135,7 @@ namespace Presenton
                 PrepareSearchIconsApiV1PptIconsSearchGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    query: query,
+                    query: query!,
                     limit: limit);
 
                 return __httpRequest;

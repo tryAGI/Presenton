@@ -143,7 +143,7 @@ namespace Presenton
                 PrepareGetSlideVariationsApiV2PptSlideIdVariationsGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
+                    id: id!,
                     count: count,
                     page: page);
 

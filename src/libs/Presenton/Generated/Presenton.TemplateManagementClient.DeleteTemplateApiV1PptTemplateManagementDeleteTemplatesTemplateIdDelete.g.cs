@@ -119,7 +119,7 @@ namespace Presenton
                 PrepareDeleteTemplateApiV1PptTemplateManagementDeleteTemplatesTemplateIdDeleteRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    templateId: templateId);
+                    templateId: templateId!);
 
                 return __httpRequest;
             }

@@ -119,7 +119,7 @@ namespace Presenton
                 PrepareDeleteThemeApiV1PptThemesDeleteThemeIdDeleteRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    themeId: themeId);
+                    themeId: themeId!);
 
                 return __httpRequest;
             }

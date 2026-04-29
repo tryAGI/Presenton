@@ -133,7 +133,7 @@ namespace Presenton
                 PrepareResetEnterpriseUserPasswordApiV3EnterpriseUsersUserIdResetPasswordPostRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    userId: userId,
+                    userId: userId!,
                     request: request);
 
                 return __httpRequest;

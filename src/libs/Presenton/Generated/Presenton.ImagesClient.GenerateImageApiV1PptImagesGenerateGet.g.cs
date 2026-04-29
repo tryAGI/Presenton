@@ -135,7 +135,7 @@ namespace Presenton
                 PrepareGenerateImageApiV1PptImagesGenerateGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    prompt: prompt,
+                    prompt: prompt!,
                     imageType: imageType);
 
                 return __httpRequest;

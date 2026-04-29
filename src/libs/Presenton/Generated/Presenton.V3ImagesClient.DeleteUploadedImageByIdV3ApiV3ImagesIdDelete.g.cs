@@ -122,7 +122,7 @@ namespace Presenton
                 PrepareDeleteUploadedImageByIdV3ApiV3ImagesIdDeleteRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id);
+                    id: id!);
 
                 return __httpRequest;
             }

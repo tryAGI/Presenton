@@ -141,7 +141,7 @@ namespace Presenton
                 PrepareEnterpriseLoginApiV1AuthEnterpriseLoginGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    email: email,
+                    email: email!,
                     firstName: firstName,
                     lastName: lastName);
 

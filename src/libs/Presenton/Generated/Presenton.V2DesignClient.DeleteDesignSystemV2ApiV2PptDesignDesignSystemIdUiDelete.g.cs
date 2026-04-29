@@ -119,7 +119,7 @@ namespace Presenton
                 PrepareDeleteDesignSystemV2ApiV2PptDesignDesignSystemIdUiDeleteRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    designSystemId: designSystemId);
+                    designSystemId: designSystemId!);
 
                 return __httpRequest;
             }

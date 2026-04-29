@@ -129,7 +129,7 @@ namespace Presenton
                 PrepareGetEnterpriseUsersInfoApiV3EnterpriseUsersInfoGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    enterprise: enterprise);
+                    enterprise: enterprise!);
 
                 return __httpRequest;
             }

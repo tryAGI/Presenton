@@ -142,7 +142,7 @@ namespace Presenton
                 PrepareGetUsedCreditsApiV1CreditAddedIdUsedGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
+                    id: id!,
                     page: page,
                     pageSize: pageSize);
 

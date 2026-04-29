@@ -129,7 +129,7 @@ namespace Presenton
                 PrepareGetAsyncTaskStatusApiV3AsyncTaskStatusIdGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id);
+                    id: id!);
 
                 return __httpRequest;
             }

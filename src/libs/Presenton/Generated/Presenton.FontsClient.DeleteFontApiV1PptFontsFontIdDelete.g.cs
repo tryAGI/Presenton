@@ -119,7 +119,7 @@ namespace Presenton
                 PrepareDeleteFontApiV1PptFontsFontIdDeleteRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    fontId: fontId);
+                    fontId: fontId!);
 
                 return __httpRequest;
             }

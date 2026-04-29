@@ -149,7 +149,7 @@ namespace Presenton
                     httpRequestMessage: __httpRequest,
                     page: page,
                     pageSize: pageSize,
-                    enterprise: enterprise);
+                    enterprise: enterprise!);
 
                 return __httpRequest;
             }

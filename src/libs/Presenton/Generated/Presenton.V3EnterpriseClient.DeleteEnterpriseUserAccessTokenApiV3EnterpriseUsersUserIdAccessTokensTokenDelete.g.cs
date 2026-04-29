@@ -124,8 +124,8 @@ namespace Presenton
                 PrepareDeleteEnterpriseUserAccessTokenApiV3EnterpriseUsersUserIdAccessTokensTokenDeleteRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    userId: userId,
-                    token: token);
+                    userId: userId!,
+                    token: token!);
 
                 return __httpRequest;
             }

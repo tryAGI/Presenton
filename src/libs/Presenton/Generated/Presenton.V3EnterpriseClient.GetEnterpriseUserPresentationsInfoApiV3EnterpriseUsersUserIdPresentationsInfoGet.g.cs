@@ -124,7 +124,7 @@ namespace Presenton
                 PrepareGetEnterpriseUserPresentationsInfoApiV3EnterpriseUsersUserIdPresentationsInfoGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    userId: userId);
+                    userId: userId!);
 
                 return __httpRequest;
             }

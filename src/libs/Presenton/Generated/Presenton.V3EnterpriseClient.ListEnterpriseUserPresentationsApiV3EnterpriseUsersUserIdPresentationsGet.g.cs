@@ -152,7 +152,7 @@ namespace Presenton
                 PrepareListEnterpriseUserPresentationsApiV3EnterpriseUsersUserIdPresentationsGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    userId: userId,
+                    userId: userId!,
                     page: page,
                     pageSize: pageSize,
                     search: search);

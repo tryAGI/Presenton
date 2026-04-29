@@ -143,7 +143,7 @@ namespace Presenton
                 PrepareGenerateImagesApiV2PptImagesGenerateGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    prompt: prompt,
+                    prompt: prompt!,
                     imageType: imageType,
                     count: count);
 

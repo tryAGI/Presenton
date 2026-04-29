@@ -135,7 +135,7 @@ namespace Presenton
                 PrepareStreamSlideVariationsApiV2PptSlideIdVariationsGenerateGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    id: id,
+                    id: id!,
                     count: count);
 
                 return __httpRequest;

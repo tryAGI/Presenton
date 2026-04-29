@@ -124,7 +124,7 @@ namespace Presenton
                 PrepareGetEnterpriseApiV3EnterpriseEnterpriseIdGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    enterpriseId: enterpriseId);
+                    enterpriseId: enterpriseId!);
 
                 return __httpRequest;
             }

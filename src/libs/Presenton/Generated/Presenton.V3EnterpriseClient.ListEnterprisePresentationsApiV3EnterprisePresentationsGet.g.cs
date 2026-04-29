@@ -158,7 +158,7 @@ namespace Presenton
                     page: page,
                     pageSize: pageSize,
                     search: search,
-                    enterprise: enterprise);
+                    enterprise: enterprise!);
 
                 return __httpRequest;
             }

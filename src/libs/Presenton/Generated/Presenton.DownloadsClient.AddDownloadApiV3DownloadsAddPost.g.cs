@@ -133,8 +133,8 @@ namespace Presenton
                 PrepareAddDownloadApiV3DownloadsAddPostRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    device: device,
-                    format: format);
+                    device: device!,
+                    format: format!);
 
                 return __httpRequest;
             }
