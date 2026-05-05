@@ -19,6 +19,18 @@ namespace Presenton
         /// <summary>
         /// Generate Presentation For Playground
         /// </summary>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Presenton.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.AnyOf<global::Presenton.PresentationWithSlidesV1, global::Presenton.PresentationWithSlidesV2>>> GeneratePresentationForPlaygroundApiV3PlaygroundPresentationGeneratePostAsResponseAsync(
+
+            global::Presenton.GeneratePresentationRequestV3 request,
+            global::Presenton.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Generate Presentation For Playground
+        /// </summary>
         /// <param name="content">
         /// The content for generating the presentation
         /// </param>
