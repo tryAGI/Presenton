@@ -42,7 +42,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public AuthClient Auth => new AuthClient(HttpClient, authorizations: Authorizations, options: Options)
+        public AuthClient Auth => new AuthClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -51,7 +51,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public BillingClient Billing => new BillingClient(HttpClient, authorizations: Authorizations, options: Options)
+        public BillingClient Billing => new BillingClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -60,7 +60,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public CreditClient Credit => new CreditClient(HttpClient, authorizations: Authorizations, options: Options)
+        public CreditClient Credit => new CreditClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -69,7 +69,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public DebugClient Debug => new DebugClient(HttpClient, authorizations: Authorizations, options: Options)
+        public DebugClient Debug => new DebugClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -78,7 +78,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public DesignSystemClient DesignSystem => new DesignSystemClient(HttpClient, authorizations: Authorizations, options: Options)
+        public DesignSystemClient DesignSystem => new DesignSystemClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -87,7 +87,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public DownloadsClient Downloads => new DownloadsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public DownloadsClient Downloads => new DownloadsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -96,7 +96,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public FilesClient Files => new FilesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public FilesClient Files => new FilesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -105,7 +105,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public FontsClient Fonts => new FontsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public FontsClient Fonts => new FontsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -114,7 +114,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public HealthClient Health => new HealthClient(HttpClient, authorizations: Authorizations, options: Options)
+        public HealthClient Health => new HealthClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -123,7 +123,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public HtmlCreateClient HtmlCreate => new HtmlCreateClient(HttpClient, authorizations: Authorizations, options: Options)
+        public HtmlCreateClient HtmlCreate => new HtmlCreateClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -132,7 +132,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public HtmlEditClient HtmlEdit => new HtmlEditClient(HttpClient, authorizations: Authorizations, options: Options)
+        public HtmlEditClient HtmlEdit => new HtmlEditClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -141,7 +141,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public HtmlToReactClient HtmlToReact => new HtmlToReactClient(HttpClient, authorizations: Authorizations, options: Options)
+        public HtmlToReactClient HtmlToReact => new HtmlToReactClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -150,7 +150,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public IconsClient Icons => new IconsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public IconsClient Icons => new IconsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -159,7 +159,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public ImagesClient Images => new ImagesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public ImagesClient Images => new ImagesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -168,7 +168,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public MockClient Mock => new MockClient(HttpClient, authorizations: Authorizations, options: Options)
+        public MockClient Mock => new MockClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -177,7 +177,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public OutlinesClient Outlines => new OutlinesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public OutlinesClient Outlines => new OutlinesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -186,7 +186,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public PdfSlidesClient PdfSlides => new PdfSlidesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public PdfSlidesClient PdfSlides => new PdfSlidesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -195,7 +195,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public PptxFontsClient PptxFonts => new PptxFontsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public PptxFontsClient PptxFonts => new PptxFontsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -204,7 +204,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public PptxSlidesClient PptxSlides => new PptxSlidesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public PptxSlidesClient PptxSlides => new PptxSlidesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -213,7 +213,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public PresentationClient Presentation => new PresentationClient(HttpClient, authorizations: Authorizations, options: Options)
+        public PresentationClient Presentation => new PresentationClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -222,7 +222,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public ReactEditClient ReactEdit => new ReactEditClient(HttpClient, authorizations: Authorizations, options: Options)
+        public ReactEditClient ReactEdit => new ReactEditClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -231,7 +231,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public SlideClient Slide => new SlideClient(HttpClient, authorizations: Authorizations, options: Options)
+        public SlideClient Slide => new SlideClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -240,7 +240,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public SlideToHtmlClient SlideToHtml => new SlideToHtmlClient(HttpClient, authorizations: Authorizations, options: Options)
+        public SlideToHtmlClient SlideToHtml => new SlideToHtmlClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -249,7 +249,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public SlideToReactClient SlideToReact => new SlideToReactClient(HttpClient, authorizations: Authorizations, options: Options)
+        public SlideToReactClient SlideToReact => new SlideToReactClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -258,7 +258,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public TemplateClient Template => new TemplateClient(HttpClient, authorizations: Authorizations, options: Options)
+        public TemplateClient Template => new TemplateClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -267,7 +267,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public TemplateManagementClient TemplateManagement => new TemplateManagementClient(HttpClient, authorizations: Authorizations, options: Options)
+        public TemplateManagementClient TemplateManagement => new TemplateManagementClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -276,7 +276,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public ThemesClient Themes => new ThemesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public ThemesClient Themes => new ThemesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -285,7 +285,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V1OnClient V1On => new V1OnClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V1OnClient V1On => new V1OnClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -294,7 +294,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V2DesignClient V2Design => new V2DesignClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V2DesignClient V2Design => new V2DesignClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -303,7 +303,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V2FixSlideClient V2FixSlide => new V2FixSlideClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V2FixSlideClient V2FixSlide => new V2FixSlideClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -312,7 +312,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V2FontsClient V2Fonts => new V2FontsClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V2FontsClient V2Fonts => new V2FontsClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -321,7 +321,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V2OnClient V2On => new V2OnClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V2OnClient V2On => new V2OnClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -330,7 +330,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V2OnboardingClient V2Onboarding => new V2OnboardingClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V2OnboardingClient V2Onboarding => new V2OnboardingClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -339,7 +339,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V2PresentationClient V2Presentation => new V2PresentationClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V2PresentationClient V2Presentation => new V2PresentationClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -348,7 +348,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V2SlideClient V2Slide => new V2SlideClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V2SlideClient V2Slide => new V2SlideClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -357,7 +357,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3AsyncTaskClient V3AsyncTask => new V3AsyncTaskClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3AsyncTaskClient V3AsyncTask => new V3AsyncTaskClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -366,7 +366,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3EnterpriseClient V3Enterprise => new V3EnterpriseClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3EnterpriseClient V3Enterprise => new V3EnterpriseClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -375,7 +375,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3FilesClient V3Files => new V3FilesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3FilesClient V3Files => new V3FilesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -384,7 +384,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3GitHubClient V3GitHub => new V3GitHubClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3GitHubClient V3GitHub => new V3GitHubClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -393,7 +393,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3ImagesClient V3Images => new V3ImagesClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3ImagesClient V3Images => new V3ImagesClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -402,7 +402,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3PlaygroundClient V3Playground => new V3PlaygroundClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3PlaygroundClient V3Playground => new V3PlaygroundClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -411,7 +411,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3PresentationClient V3Presentation => new V3PresentationClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3PresentationClient V3Presentation => new V3PresentationClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -420,7 +420,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3SchemaClient V3Schema => new V3SchemaClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3SchemaClient V3Schema => new V3SchemaClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -429,7 +429,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3SmartDesignClient V3SmartDesign => new V3SmartDesignClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3SmartDesignClient V3SmartDesign => new V3SmartDesignClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -438,7 +438,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3StandardTemplateClient V3StandardTemplate => new V3StandardTemplateClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3StandardTemplateClient V3StandardTemplate => new V3StandardTemplateClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -447,7 +447,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3ThemeClient V3Theme => new V3ThemeClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3ThemeClient V3Theme => new V3ThemeClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -456,7 +456,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public V3WebhookClient V3Webhook => new V3WebhookClient(HttpClient, authorizations: Authorizations, options: Options)
+        public V3WebhookClient V3Webhook => new V3WebhookClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -465,7 +465,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public WebhookClient Webhook => new WebhookClient(HttpClient, authorizations: Authorizations, options: Options)
+        public WebhookClient Webhook => new WebhookClient(HttpClient, baseUri: null, authorizations: Authorizations, options: Options)
         {
             ReadResponseAsString = ReadResponseAsString,
             JsonSerializerContext = JsonSerializerContext,
@@ -504,10 +504,10 @@ namespace Presenton
         /// <param name="options">Client-wide request defaults such as headers, query parameters, retries, and timeout.</param>
         /// <param name="disposeHttpClient">Dispose the HttpClient when the instance is disposed. True by default.</param>
         public PresentonClient(
-            global::System.Net.Http.HttpClient? httpClient = null,
-            global::System.Uri? baseUri = null,
-            global::System.Collections.Generic.List<global::Presenton.EndPointAuthorization>? authorizations = null,
-            global::Presenton.AutoSDKClientOptions? options = null,
+            global::System.Net.Http.HttpClient? httpClient,
+            global::System.Uri? baseUri,
+            global::System.Collections.Generic.List<global::Presenton.EndPointAuthorization>? authorizations,
+            global::Presenton.AutoSDKClientOptions? options,
             bool disposeHttpClient = true)
         {
 
