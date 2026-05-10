@@ -40,5 +40,6 @@ namespace Presenton
         public OAuth2AuthorizeResponse()
         {
         }
+
     }
 }

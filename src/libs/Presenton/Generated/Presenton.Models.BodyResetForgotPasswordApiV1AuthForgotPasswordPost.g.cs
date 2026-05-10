@@ -40,5 +40,6 @@ namespace Presenton
         public BodyResetForgotPasswordApiV1AuthForgotPasswordPost()
         {
         }
+
     }
 }
