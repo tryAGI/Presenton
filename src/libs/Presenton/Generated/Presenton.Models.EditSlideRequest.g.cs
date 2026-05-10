@@ -88,5 +88,6 @@ namespace Presenton
         public EditSlideRequest()
         {
         }
+
     }
 }

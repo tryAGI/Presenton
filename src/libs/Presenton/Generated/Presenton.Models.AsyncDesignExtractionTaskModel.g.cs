@@ -100,5 +100,6 @@ namespace Presenton
         public AsyncDesignExtractionTaskModel()
         {
         }
+
     }
 }
