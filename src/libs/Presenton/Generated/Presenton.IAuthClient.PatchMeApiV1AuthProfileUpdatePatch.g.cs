@@ -43,40 +43,5 @@ namespace Presenton
             string? name = default,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
-
-        /// <summary>
-        /// Patch Me
-        /// </summary>
-        /// <param name="profilePicture">
-        /// The stream to send as the multipart 'profile_picture' file part.
-        /// </param>
-        /// <param name="profilePicturename"></param>
-        /// <param name="name"></param>
-        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
-        /// <param name="cancellationToken">The token to cancel the operation with</param>
-        /// <exception cref="global::Presenton.ApiException"></exception>
-        global::System.Threading.Tasks.Task<string> PatchMeApiV1AuthProfileUpdatePatchAsync(
-            global::System.IO.Stream? profilePicture = default,
-            string? profilePicturename = default,
-            string? name = default,
-            global::Presenton.AutoSDKRequestOptions? requestOptions = default,
-            global::System.Threading.CancellationToken cancellationToken = default);
-        /// <summary>
-        /// Patch Me
-        /// </summary>
-        /// <param name="profilePicture">
-        /// The stream to send as the multipart 'profile_picture' file part.
-        /// </param>
-        /// <param name="profilePicturename"></param>
-        /// <param name="name"></param>
-        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
-        /// <param name="cancellationToken">The token to cancel the operation with</param>
-        /// <exception cref="global::Presenton.ApiException"></exception>
-        global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<string>> PatchMeApiV1AuthProfileUpdatePatchAsResponseAsync(
-            global::System.IO.Stream? profilePicture = default,
-            string? profilePicturename = default,
-            string? name = default,
-            global::Presenton.AutoSDKRequestOptions? requestOptions = default,
-            global::System.Threading.CancellationToken cancellationToken = default);
     }
 }
