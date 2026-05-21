@@ -94,5 +94,6 @@ namespace Presenton
         public AsyncPresentationGenerationTaskModel()
         {
         }
+
     }
 }

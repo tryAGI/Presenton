@@ -21,6 +21,19 @@ namespace Presenton
         /// Generate Html Presentation V2<br/>
         /// Create and store presentation; return its id. No SSE or generation here.
         /// </summary>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Presenton.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.GenerateHTMLPresentationResponseV2>> GenerateHtmlPresentationV2ApiV2PptPresentationGenerateHtmlInitPostAsResponseAsync(
+
+            global::Presenton.GenerateHTMLPresentationRequestV2 request,
+            global::Presenton.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Generate Html Presentation V2<br/>
+        /// Create and store presentation; return its id. No SSE or generation here.
+        /// </summary>
         /// <param name="content"></param>
         /// <param name="nSlides"></param>
         /// <param name="language"></param>

@@ -27,6 +27,22 @@ namespace Presenton
         /// Create an API Key from your account to access this endpoint.<br/>
         /// Authorization: Bearer sk-presenton-xxxxxxxx
         /// </summary>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Presenton.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.AsyncPresentationGenerationTaskModel>> CreatePresentationFromJsonAsyncV1ApiV1PptPresentationCreateFromJsonAsyncPostAsResponseAsync(
+
+            global::Presenton.CreatePresentationFromJsonRequestV1 request,
+            global::Presenton.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Create Presentation From Json Async V1<br/>
+        /// Create a presentation from JSON asynchronously.<br/>
+        /// Use /api/v1/ppt/presentation/status/task-xxxxxxxxxx to get the status of presentation.<br/>
+        /// Create an API Key from your account to access this endpoint.<br/>
+        /// Authorization: Bearer sk-presenton-xxxxxxxx
+        /// </summary>
         /// <param name="language">
         /// The language of the presentation<br/>
         /// Default Value: English

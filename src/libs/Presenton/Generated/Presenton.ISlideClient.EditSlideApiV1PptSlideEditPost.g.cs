@@ -33,6 +33,25 @@ namespace Presenton
         ///   inferred from the prompt.<br/>
         /// - Provide `export_as` to export the edited presentation as `pptx` or `pdf`.
         /// </summary>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Presenton.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.AnyOf<global::Presenton.PresentationPathAndEditPath, global::Presenton.SlideModel>>> EditSlideApiV1PptSlideEditPostAsResponseAsync(
+
+            global::Presenton.EditSlideRequest request,
+            global::Presenton.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Edit Slide<br/>
+        /// Edit a slide with a prompt.<br/>
+        /// Usage options:<br/>
+        /// - Provide `id` + `prompt` to edit a specific slide by id.<br/>
+        /// - Provide `presentation_id` + `prompt` to edit by presentation. You can also<br/>
+        ///   pass `slide_index` to target a specific slide; if omitted, the index is<br/>
+        ///   inferred from the prompt.<br/>
+        /// - Provide `export_as` to export the edited presentation as `pptx` or `pdf`.
+        /// </summary>
         /// <param name="id">
         /// The id of the slide to edit
         /// </param>

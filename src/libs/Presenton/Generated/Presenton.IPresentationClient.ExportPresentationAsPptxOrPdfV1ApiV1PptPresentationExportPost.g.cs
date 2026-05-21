@@ -25,6 +25,21 @@ namespace Presenton
         /// Create an API Key from your account to access this endpoint.<br/>
         /// Authorization: Bearer sk-presenton-xxxxxxxx
         /// </summary>
+        /// <param name="request"></param>
+        /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
+        /// <param name="cancellationToken">The token to cancel the operation with</param>
+        /// <exception cref="global::Presenton.ApiException"></exception>
+        global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationPathAndEditPath>> ExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPostAsResponseAsync(
+
+            global::Presenton.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPost request,
+            global::Presenton.AutoSDKRequestOptions? requestOptions = default,
+            global::System.Threading.CancellationToken cancellationToken = default);
+        /// <summary>
+        /// Export Presentation As Pptx Or Pdf V1<br/>
+        /// Export presentation as PPTX, PDF or PNG using API.<br/>
+        /// Create an API Key from your account to access this endpoint.<br/>
+        /// Authorization: Bearer sk-presenton-xxxxxxxx
+        /// </summary>
         /// <param name="id">
         /// Presentation ID to export
         /// </param>
