@@ -21,6 +21,10 @@ namespace Presenton
 
             typeof(global::Presenton.JsonConverters.BodyCreatePresentationApiV1PptPresentationCreatePostImageTypeNullableJsonConverter),
 
+            typeof(global::Presenton.JsonConverters.BodyExportPresentationApiV1DebugExportPresentationPostExportAsJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.BodyExportPresentationApiV1DebugExportPresentationPostExportAsNullableJsonConverter),
+
             typeof(global::Presenton.JsonConverters.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPostExportAsJsonConverter),
 
             typeof(global::Presenton.JsonConverters.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPostExportAsNullableJsonConverter),
@@ -33,6 +37,10 @@ namespace Presenton
 
             typeof(global::Presenton.JsonConverters.BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPostExportAsNullableJsonConverter),
 
+            typeof(global::Presenton.JsonConverters.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePostModeJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePostModeNullableJsonConverter),
+
             typeof(global::Presenton.JsonConverters.BodyPresentationExportApiV1OnPresentationExportPostExportAsJsonConverter),
 
             typeof(global::Presenton.JsonConverters.BodyPresentationExportApiV1OnPresentationExportPostExportAsNullableJsonConverter),
@@ -40,6 +48,18 @@ namespace Presenton
             typeof(global::Presenton.JsonConverters.BodyPresentationExportApiV2OnPresentationExportPostExportAsJsonConverter),
 
             typeof(global::Presenton.JsonConverters.BodyPresentationExportApiV2OnPresentationExportPostExportAsNullableJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.ChatEditMessageRequestPresentationTypeJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.ChatEditMessageRequestPresentationTypeNullableJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.ChatHistoryResponsePresentationTypeJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.ChatHistoryResponsePresentationTypeNullableJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.ChatMessageRequestPresentationTypeJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.ChatMessageRequestPresentationTypeNullableJsonConverter),
 
             typeof(global::Presenton.JsonConverters.ContentGenerationModeJsonConverter),
 
@@ -69,10 +89,6 @@ namespace Presenton
 
             typeof(global::Presenton.JsonConverters.EditSlideRequestExportAs2NullableJsonConverter),
 
-            typeof(global::Presenton.JsonConverters.GenerateContentForSchemaRequestModeJsonConverter),
-
-            typeof(global::Presenton.JsonConverters.GenerateContentForSchemaRequestModeNullableJsonConverter),
-
             typeof(global::Presenton.JsonConverters.GenerateHTMLPresentationRequestV2ImageTypeJsonConverter),
 
             typeof(global::Presenton.JsonConverters.GenerateHTMLPresentationRequestV2ImageTypeNullableJsonConverter),
@@ -101,10 +117,6 @@ namespace Presenton
 
             typeof(global::Presenton.JsonConverters.GeneratePresentationRequestV3ExportAsNullableJsonConverter),
 
-            typeof(global::Presenton.JsonConverters.QualitativeChartJsonConverter),
-
-            typeof(global::Presenton.JsonConverters.QualitativeChartNullableJsonConverter),
-
             typeof(global::Presenton.JsonConverters.ToneJsonConverter),
 
             typeof(global::Presenton.JsonConverters.ToneNullableJsonConverter),
@@ -125,11 +137,15 @@ namespace Presenton
 
             typeof(global::Presenton.JsonConverters.GenerateImagesApiV2PptImagesGenerateGetImageTypeNullableJsonConverter),
 
+            typeof(global::Presenton.JsonConverters.ListChatConversationsApiV3ChatConversationsGetPresentationTypeJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.ListChatConversationsApiV3ChatConversationsGetPresentationTypeNullableJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.GetChatHistoryApiV3ChatHistoryGetPresentationTypeJsonConverter),
+
+            typeof(global::Presenton.JsonConverters.GetChatHistoryApiV3ChatHistoryGetPresentationTypeNullableJsonConverter),
+
             typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.Dictionary<string, string>>),
-
-            typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>),
-
-            typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>),
 
             typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>),
 
@@ -161,9 +177,9 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyAddUserApiV1DebugAddUserPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyAuthJwtLoginApiV1AuthJwtLoginPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCheckCreditBalanceApiV1DebugCheckCreditBalancePost))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCheckFontsInPptxApiV1PptFontsCheckPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCheckFontsInPptxHandlerApiV1PptFontsCheckPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(byte[]))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCheckFontsInPptxApiV2PptFontsCheckPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCheckFontsInPptxHandlerApiV2PptFontsCheckPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCreatePortalSessionApiV1BillingPortalSessionPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCreatePresentationApiV1PptPresentationCreatePost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<string>))]
@@ -172,23 +188,26 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(bool))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCreatePresentationApiV1PptPresentationCreatePostImageType), TypeInfoPropertyName = "BodyCreatePresentationApiV1PptPresentationCreatePostImageType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCreateThemeApiV1PptThemesCreatePost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentionThemeDataInput))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyCreateThemeApiV3ThemeCreatePost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyDecomposeFilesApiV1PptFilesDecomposePost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyDeleteUserApiV1DebugDeleteUserDelete))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyEditHtmlWithImagesEndpointApiV1PptHtmlEditPost))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyEditReactWithImageEndpointApiV1PptReactEditPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyEditSlideHtmlApiV1PptSlideEditHtmlPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyEndSubscriptionApiV1DebugEndSubscriptionPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyExportPresentationApiV1DebugExportPresentationPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyExportPresentationApiV1DebugExportPresentationPostExportAs), TypeInfoPropertyName = "BodyExportPresentationApiV1DebugExportPresentationPostExportAs2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPostExportAs), TypeInfoPropertyName = "BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPostExportAs2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyExportPresentationAsPptxOrPdfV2ApiV2PptPresentationExportPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyExportPresentationAsPptxOrPdfV2ApiV2PptPresentationExportPostExportAs), TypeInfoPropertyName = "BodyExportPresentationAsPptxOrPdfV2ApiV2PptPresentationExportPostExportAs2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPostExportAs), TypeInfoPropertyName = "BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPostExportAs2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePostMode), TypeInfoPropertyName = "BodyGenerateContentForSchemaApiV3SchemaContentGeneratePostMode2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyGetJwtTokenApiV1DebugGetJwtTokenPost))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyInitFixSlideApiV2PptFixSlideInitPost))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyInitHtmlCreateApiV1PptHtmlCreateInitPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyImportPresentationFromPptxFileApiV2PptPresentationImportFromPptxFilePost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<byte[]>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyInitHtmlEditApiV1PptHtmlEditInitPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyInitFixSlideApiV2PptFixSlideInitPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyModifySubscriptionApiV1BillingSubscriptionModifyPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyPatchMeApiV1AuthProfileUpdatePatch))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyPreparePresentationApiV1PptPresentationPreparePost))]
@@ -199,9 +218,6 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyPresentationExportApiV1OnPresentationExportPostExportAs), TypeInfoPropertyName = "BodyPresentationExportApiV1OnPresentationExportPostExportAs2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyPresentationExportApiV2OnPresentationExportPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyPresentationExportApiV2OnPresentationExportPostExportAs), TypeInfoPropertyName = "BodyPresentationExportApiV2OnPresentationExportPostExportAs2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyProcessPdfSlidesApiV1PptPdfSlidesProcessPost))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyProcessPptxFontsApiV1PptPptxFontsProcessPost))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyProcessPptxSlidesApiV1PptPptxSlidesProcessPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyRaiseExceptionApiV1DebugRaiseExceptionPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyResetForgotPasswordApiV1AuthForgotPasswordPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyResetResetPasswordApiV1AuthResetPasswordPost))]
@@ -213,23 +229,35 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodySendWelcomeEmailApiV1DebugSendWelcomeEmailPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyTestJobApiV1DebugTestJobPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUnsubscribeToWebhookV1ApiV1WebhookUnsubscribeDelete))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUnsubscribeToWebhookV3ApiV3WebhookUnsubscribeDelete))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUnsubscribeToWebhookV1ApiV3WebhookUnsubscribeDelete))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUpdatePresentationApiV1PptPresentationUpdatePatch))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.SlideModel>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SlideModel))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUpdateThemeApiV1PptThemesUpdateThemeIdPatch))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUpdateThemeApiV3ThemeUpdateThemeIdPatch))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadFilesAndGetTemporaryUrlsApiV1PptFilesUploadAndGetTemporaryUrlsPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadFilesForUiApiV1PptFilesUploadUiPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadFilesV1ApiV1PptFilesUploadPost))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadFilesV3ApiV3FilesUploadPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadFilesV1ApiV3FilesUploadPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadFontApiV1PptFontsUploadPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadFontsAndSlidesPreviewApiV1PptTemplateFontsUploadAndSlidesPreviewPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadFontsAndSlidesPreviewApiV2PptFontsUploadAndPreviewPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadImageForUiApiV1PptImagesUploadUiPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadImageV1ApiV1PptImagesUploadPost))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadImageV3ApiV3ImagesUploadPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyUploadImageV1ApiV3ImagesUploadPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyVerifyRequestTokenApiV1AuthRequestVerifyTokenPost))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.BodyVerifyVerifyApiV1AuthVerifyPost))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChangePasswordRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatConversationListItem))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatEditMessageRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatEditMessageRequestPresentationType), TypeInfoPropertyName = "ChatEditMessageRequestPresentationType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatHistoryMessageItem))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatHistoryResponse))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatHistoryResponsePresentationType), TypeInfoPropertyName = "ChatHistoryResponsePresentationType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.ChatHistoryMessageItem>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatMessageRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatMessageRequestPresentationType), TypeInfoPropertyName = "ChatMessageRequestPresentationType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ChatMessageResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CheckCreditBalanceResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(double))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CloneSlideLayoutRequest))]
@@ -237,7 +265,11 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ContentGenerationMode), TypeInfoPropertyName = "ContentGenerationMode2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreateCheckoutSessionRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreateCheckoutSessionResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreateDesignSystemRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreateDesignAsyncRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreateDesignInitRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreateDesignReferenceRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreateDesignReferenceResponse))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreateDesignRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreatePortalSessionResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreatePresentationFromJsonRequestV1))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.CreateSlideFromJsonRequestV1>))]
@@ -255,12 +287,16 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.CreditsRatesAndAutoTopupInfoResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TopupInfo))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.DecomposedFileInfo))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.DefaultPresentationThemeModel))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.DesignSystemExportInfo))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.DefaultPresentationThemeResponse))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentionThemeDataOutput))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.DesignExportInfo))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<object>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.DesignSystemSlideInput))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.Device), TypeInfoPropertyName = "Device2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.DownloadFormat), TypeInfoPropertyName = "DownloadFormat2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditDesignReferenceRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditDesignReferenceResponse))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditDesignReferenceSectionRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditDesignReferenceSectionResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditOutlineRequestV2))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditPresentationRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.SlideContentUpdate>))]
@@ -301,12 +337,6 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ErrorModel))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<string, global::System.Collections.Generic.Dictionary<string, string>>), TypeInfoPropertyName = "AnyOfStringDictionaryStringString2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.Dictionary<string, string>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ErrorResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ExtractDesignSystemRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.DesignSystemSlideInput>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ExtractDesignSystemResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.FontAnalysisResult))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.FontCheckResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.FontInfo>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.FontInfo))]
@@ -314,8 +344,6 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.FontListResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.FontDetail>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.FontsUploadAndSlidesPreviewResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateContentForSchemaRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateContentForSchemaRequestMode), TypeInfoPropertyName = "GenerateContentForSchemaRequestMode2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateContentForSchemaResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateHTMLPresentationRequestV2))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateHTMLPresentationRequestV2ImageType), TypeInfoPropertyName = "GenerateHTMLPresentationRequestV2ImageType2")]
@@ -333,58 +361,47 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GeneratePresentationRequestV3ImageType), TypeInfoPropertyName = "GeneratePresentationRequestV3ImageType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GeneratePresentationRequestV3ExportAs), TypeInfoPropertyName = "GeneratePresentationRequestV3ExportAs2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateSlideRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.QualitativeChart))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateSlideResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateThemeRequestV3))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GetJwtTokenResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GetLayoutsResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.LayoutData>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.LayoutData))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>), TypeInfoPropertyName = "AnyOfIListStringObjectObject2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GetMeResponse))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GetMultipleTemplateLayoutsRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GetPresentationStatusResponseV2))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GetPresentationSummaryResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.PresentationSummary>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentationSummary))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GetTemplateLayoutsResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.TemplateLayoutData>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateLayoutData))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateData))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>), TypeInfoPropertyName = "AnyOfIListStringObjectObject2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HTMLDesignV2Detail))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HTMLSlideV2))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HTTPValidationError))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.ValidationError>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ValidationError))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HealthResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HtmlEditInitResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HtmlEditResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HtmlToReactRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HtmlToReactResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ImageAsset))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ModifySubscriptionResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.OAuth2AuthorizeResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.OnboardingQuestion))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PaginatedResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PaginatedVariationsResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PdfSlideData))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PdfSlidesResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.PdfSlideData>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PptxFontsResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PptxSlidesResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.SlideData>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SlideData))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.SlideLayoutModel>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SlideLayoutModel))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentationModel))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentationPathAndEditPath))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentationThemeModel))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentationThemeResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentationWithSlidesV1))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentationWithSlidesV2))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.HTMLSlideV2>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentionThemeColors))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentionThemeFonts))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PresentionThemeTextFont))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PriceItem))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.PurchaseCreditsRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ReactivateSubscriptionResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveLayoutsRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveLayoutsResponse))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveDesignReferenceData))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveDesignRequest))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.SaveDesignReferenceData>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveDesignResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveSlideLayoutRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveTemplateLayoutData))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveTemplateRequest))]
@@ -392,16 +409,10 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SaveTemplateResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SegmentVariationsRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SlideExample))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SlideToHtmlRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SlideToHtmlResponse))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SlideToReactRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SlideToReactResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SubscribeToWebhookRequestV1))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.WebhookEvent), TypeInfoPropertyName = "WebhookEvent2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.SubscribeToWebhookResponseV1))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.Subscription))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateCreateRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateCreateResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateDetail))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateExample))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.SlideExample>))]
@@ -416,22 +427,27 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.VariationsResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateImageApiV1PptImagesGenerateGetImageType), TypeInfoPropertyName = "GenerateImageApiV1PptImagesGenerateGetImageType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GenerateImagesApiV2PptImagesGenerateGetImageType), TypeInfoPropertyName = "GenerateImagesApiV2PptImagesGenerateGetImageType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ListChatConversationsApiV3ChatConversationsGetPresentationType), TypeInfoPropertyName = "ListChatConversationsApiV3ChatConversationsGetPresentationType2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.GetChatHistoryApiV3ChatHistoryGetPresentationType), TypeInfoPropertyName = "GetChatHistoryApiV3ChatHistoryGetPresentationType2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.AccessToken>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.DecomposedFileInfo>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.TemplateDetail>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.GetTemplateLayoutsResponse>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::Presenton.PresentationPathAndEditPath, global::Presenton.SlideModel>), TypeInfoPropertyName = "AnyOfPresentationPathAndEditPathSlideModel2")]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.PresentationThemeModel>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.PresentationThemeResponse>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.PriceItem>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.PresentationPathAndEditPath>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.APIErrorModel>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.OnboardingQuestion>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.ChatConversationListItem>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::Presenton.PresentationWithSlidesV1, global::Presenton.PresentationWithSlidesV2>), TypeInfoPropertyName = "AnyOfPresentationWithSlidesV1PresentationWithSlidesV22")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.SubscribeToWebhookResponseV1>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<string>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<byte[]>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideOutlineModel>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideModel>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.ChatHistoryMessageItem>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.CreateSlideFromJsonRequestV1>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<object>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideContentUpdate>))]
@@ -439,32 +455,29 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.EnterprisePresentationRead>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.EnterpriseUserAccessTokenRead>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.UserRead>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.DesignSystemSlideInput>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::System.Collections.Generic.Dictionary<string, string>>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.FontInfo>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.FontDetail>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideContentLayout>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.LayoutData>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object, object>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.PresentationSummary>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.TemplateLayoutData>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object, object>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.ValidationError>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.PdfSlideData>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideData>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideLayoutModel>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.HTMLSlideV2>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SaveDesignReferenceData>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SaveTemplateLayoutData>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideExample>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.AnyOf<string, int?>>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.AccessToken>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.DecomposedFileInfo>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.TemplateDetail>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.DefaultPresentationThemeModel>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.PresentationThemeModel>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.GetTemplateLayoutsResponse>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.DefaultPresentationThemeResponse>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.PresentationThemeResponse>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.PriceItem>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.PresentationPathAndEditPath>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.APIErrorModel>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.OnboardingQuestion>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.ChatConversationListItem>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SubscribeToWebhookResponseV1>))]
     public sealed partial class SourceGenerationContext : global::System.Text.Json.Serialization.JsonSerializerContext
     {

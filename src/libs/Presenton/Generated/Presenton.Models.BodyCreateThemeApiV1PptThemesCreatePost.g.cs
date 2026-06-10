@@ -25,6 +25,13 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
+        [global::System.Text.Json.Serialization.JsonPropertyName("data")]
+        [global::System.Text.Json.Serialization.JsonRequired]
+        public required global::Presenton.PresentionThemeDataInput Data { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("company_name")]
         public string? CompanyName { get; set; }
 
@@ -33,12 +40,6 @@ namespace Presenton
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("logo")]
         public global::System.Guid? Logo { get; set; }
-
-        /// <summary>
-        /// Default Value: {}
-        /// </summary>
-        [global::System.Text.Json.Serialization.JsonPropertyName("data")]
-        public object? Data { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -51,26 +52,24 @@ namespace Presenton
         /// </summary>
         /// <param name="name"></param>
         /// <param name="description"></param>
+        /// <param name="data"></param>
         /// <param name="companyName"></param>
         /// <param name="logo"></param>
-        /// <param name="data">
-        /// Default Value: {}
-        /// </param>
 #if NET7_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembers]
 #endif
         public BodyCreateThemeApiV1PptThemesCreatePost(
             string name,
             string description,
+            global::Presenton.PresentionThemeDataInput data,
             string? companyName,
-            global::System.Guid? logo,
-            object? data)
+            global::System.Guid? logo)
         {
             this.Name = name ?? throw new global::System.ArgumentNullException(nameof(name));
             this.Description = description ?? throw new global::System.ArgumentNullException(nameof(description));
+            this.Data = data ?? throw new global::System.ArgumentNullException(nameof(data));
             this.CompanyName = companyName;
             this.Logo = logo;
-            this.Data = data;
         }
 
         /// <summary>

@@ -95,7 +95,7 @@ namespace Presenton
         public string? StandardTemplate { get; set; }
 
         /// <summary>
-        /// Smart design to use for the presentation
+        /// Design V2 id to use for the smart presentation
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("smart_design")]
         public string? SmartDesign { get; set; }
@@ -196,7 +196,7 @@ namespace Presenton
         /// Standard template to use for the presentation. Available templates: neo-general, neo-modern, neo-standard, neo-swift, general, modern, standard, swift and your custom templates
         /// </param>
         /// <param name="smartDesign">
-        /// Smart design to use for the presentation
+        /// Design V2 id to use for the smart presentation
         /// </param>
         /// <param name="includeTableOfContents">
         /// Whether to include a table of contents<br/>

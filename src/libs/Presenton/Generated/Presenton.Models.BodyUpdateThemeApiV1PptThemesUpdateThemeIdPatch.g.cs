@@ -36,7 +36,7 @@ namespace Presenton
         /// 
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("data")]
-        public object? Data { get; set; }
+        public global::Presenton.PresentionThemeDataInput? Data { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -60,7 +60,7 @@ namespace Presenton
             string? description,
             string? companyName,
             global::System.Guid? logo,
-            object? data)
+            global::Presenton.PresentionThemeDataInput? data)
         {
             this.Name = name;
             this.Description = description;

@@ -4,7 +4,7 @@
 namespace Presenton
 {
     /// <summary>
-    /// The layout for the slide
+    /// 
     /// </summary>
     public sealed partial class SlideContentLayoutLayout
     {
