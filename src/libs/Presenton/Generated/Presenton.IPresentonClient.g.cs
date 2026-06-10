@@ -57,17 +57,17 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
+        public ChatClient Chat { get; }
+
+        /// <summary>
+        /// 
+        /// </summary>
         public CreditClient Credit { get; }
 
         /// <summary>
         /// 
         /// </summary>
         public DebugClient Debug { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public DesignSystemClient DesignSystem { get; }
 
         /// <summary>
         /// 
@@ -92,21 +92,6 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public HtmlCreateClient HtmlCreate { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public HtmlEditClient HtmlEdit { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public HtmlToReactClient HtmlToReact { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
         public IconsClient Icons { get; }
 
         /// <summary>
@@ -127,27 +112,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public PdfSlidesClient PdfSlides { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public PptxFontsClient PptxFonts { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public PptxSlidesClient PptxSlides { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
         public PresentationClient Presentation { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public ReactEditClient ReactEdit { get; }
 
         /// <summary>
         /// 
@@ -157,22 +122,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public SlideToHtmlClient SlideToHtml { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public SlideToReactClient SlideToReact { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
         public TemplateClient Template { get; }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        public TemplateManagementClient TemplateManagement { get; }
 
         /// <summary>
         /// 

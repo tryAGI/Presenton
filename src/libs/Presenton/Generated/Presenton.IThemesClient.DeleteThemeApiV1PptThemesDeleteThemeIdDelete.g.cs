@@ -5,7 +5,8 @@ namespace Presenton
     public partial interface IThemesClient
     {
         /// <summary>
-        /// Delete Theme
+        /// Delete a user theme<br/>
+        /// Deletes a custom theme owned by the authenticated user. Default built-in themes cannot be deleted through this endpoint.
         /// </summary>
         /// <param name="themeId"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
@@ -16,7 +17,8 @@ namespace Presenton
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
-        /// Delete Theme
+        /// Delete a user theme<br/>
+        /// Deletes a custom theme owned by the authenticated user. Default built-in themes cannot be deleted through this endpoint.
         /// </summary>
         /// <param name="themeId"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>

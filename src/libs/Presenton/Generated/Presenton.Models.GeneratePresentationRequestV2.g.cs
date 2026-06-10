@@ -55,7 +55,7 @@ namespace Presenton
         public global::Presenton.ContentGenerationMode? ContentGeneration { get; set; }
 
         /// <summary>
-        /// Smart design to use for the presentation
+        /// Design V2 id to use for the smart presentation
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("smart_design")]
         [global::System.Text.Json.Serialization.JsonRequired]
@@ -141,7 +141,7 @@ namespace Presenton
         /// Initializes a new instance of the <see cref="GeneratePresentationRequestV2" /> class.
         /// </summary>
         /// <param name="smartDesign">
-        /// Smart design to use for the presentation
+        /// Design V2 id to use for the smart presentation
         /// </param>
         /// <param name="content">
         /// The content for generating the presentation

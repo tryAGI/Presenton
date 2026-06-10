@@ -495,7 +495,7 @@ namespace Presenton
         /// How to generate the content for each slide
         /// </param>
         /// <param name="smartDesign">
-        /// Smart design to use for the presentation
+        /// Design V2 id to use for the smart presentation
         /// </param>
         /// <param name="markdownEmphasis">
         /// Whether to emphasize the markdown<br/>

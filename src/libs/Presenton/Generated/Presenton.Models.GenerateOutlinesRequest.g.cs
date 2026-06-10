@@ -27,6 +27,12 @@ namespace Presenton
         public int? NSlides { get; set; }
 
         /// <summary>
+        /// Optional design ID to use for outline generation
+        /// </summary>
+        [global::System.Text.Json.Serialization.JsonPropertyName("design")]
+        public global::System.Guid? Design { get; set; }
+
+        /// <summary>
         /// The language for the presentation
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("language")]
@@ -92,6 +98,9 @@ namespace Presenton
         /// <param name="nSlides">
         /// The number of slides to generate
         /// </param>
+        /// <param name="design">
+        /// Optional design ID to use for outline generation
+        /// </param>
         /// <param name="language">
         /// The language for the presentation
         /// </param>
@@ -124,6 +133,7 @@ namespace Presenton
             string? content,
             global::System.Collections.Generic.IList<string>? files,
             int? nSlides,
+            global::System.Guid? design,
             string? language,
             global::Presenton.Tone? tone,
             global::Presenton.Verbosity? verbosity,
@@ -135,6 +145,7 @@ namespace Presenton
             this.Content = content;
             this.Files = files;
             this.NSlides = nSlides;
+            this.Design = design;
             this.Language = language;
             this.Tone = tone;
             this.Verbosity = verbosity;

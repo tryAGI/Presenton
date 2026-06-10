@@ -9,14 +9,14 @@ namespace Presenton
     public sealed partial class SlideContentLayout
     {
         /// <summary>
-        /// The content for the slide
+        /// 
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("content")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Content { get; set; }
 
         /// <summary>
-        /// The layout for the slide
+        /// 
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("layout")]
         public string? Layout { get; set; }
@@ -30,12 +30,8 @@ namespace Presenton
         /// <summary>
         /// Initializes a new instance of the <see cref="SlideContentLayout" /> class.
         /// </summary>
-        /// <param name="content">
-        /// The content for the slide
-        /// </param>
-        /// <param name="layout">
-        /// The layout for the slide
-        /// </param>
+        /// <param name="content"></param>
+        /// <param name="layout"></param>
 #if NET7_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembers]
 #endif

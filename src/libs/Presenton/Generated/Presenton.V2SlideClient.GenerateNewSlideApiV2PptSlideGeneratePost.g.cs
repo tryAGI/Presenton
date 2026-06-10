@@ -476,14 +476,12 @@ namespace Presenton
         /// </summary>
         /// <param name="presentationId"></param>
         /// <param name="prompt"></param>
-        /// <param name="qualitativechart"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         public async global::System.Threading.Tasks.Task<global::Presenton.GenerateSlideResponse> GenerateNewSlideApiV2PptSlideGeneratePostAsync(
             global::System.Guid presentationId,
             string prompt,
-            global::Presenton.QualitativeChart? qualitativechart = default,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
@@ -491,7 +489,6 @@ namespace Presenton
             {
                 PresentationId = presentationId,
                 Prompt = prompt,
-                Qualitativechart = qualitativechart,
             };
 
             return await GenerateNewSlideApiV2PptSlideGeneratePostAsync(

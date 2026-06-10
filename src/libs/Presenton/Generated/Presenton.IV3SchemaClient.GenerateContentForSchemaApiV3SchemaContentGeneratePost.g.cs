@@ -13,7 +13,7 @@ namespace Presenton
         /// <exception cref="global::Presenton.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Presenton.GenerateContentForSchemaResponse> GenerateContentForSchemaApiV3SchemaContentGeneratePostAsync(
 
-            global::Presenton.GenerateContentForSchemaRequest request,
+            global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost request,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
@@ -25,7 +25,7 @@ namespace Presenton
         /// <exception cref="global::Presenton.ApiException"></exception>
         global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.GenerateContentForSchemaResponse>> GenerateContentForSchemaApiV3SchemaContentGeneratePostAsResponseAsync(
 
-            global::Presenton.GenerateContentForSchemaRequest request,
+            global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost request,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
@@ -37,8 +37,8 @@ namespace Presenton
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         global::System.Threading.Tasks.Task<global::Presenton.GenerateContentForSchemaResponse> GenerateContentForSchemaApiV3SchemaContentGeneratePostAsync(
-            global::Presenton.GenerateContentForSchemaRequestMode mode,
-            object? schema = default,
+            object schema,
+            global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePostMode mode,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }

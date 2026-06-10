@@ -27,11 +27,11 @@ namespace Presenton
             };
         partial void PrepareGenerateContentForSchemaApiV3SchemaContentGeneratePostArguments(
             global::System.Net.Http.HttpClient httpClient,
-            global::Presenton.GenerateContentForSchemaRequest request);
+            global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost request);
         partial void PrepareGenerateContentForSchemaApiV3SchemaContentGeneratePostRequest(
             global::System.Net.Http.HttpClient httpClient,
             global::System.Net.Http.HttpRequestMessage httpRequestMessage,
-            global::Presenton.GenerateContentForSchemaRequest request);
+            global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost request);
         partial void ProcessGenerateContentForSchemaApiV3SchemaContentGeneratePostResponse(
             global::System.Net.Http.HttpClient httpClient,
             global::System.Net.Http.HttpResponseMessage httpResponseMessage);
@@ -50,7 +50,7 @@ namespace Presenton
         /// <exception cref="global::Presenton.ApiException"></exception>
         public async global::System.Threading.Tasks.Task<global::Presenton.GenerateContentForSchemaResponse> GenerateContentForSchemaApiV3SchemaContentGeneratePostAsync(
 
-            global::Presenton.GenerateContentForSchemaRequest request,
+            global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost request,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
@@ -72,7 +72,7 @@ namespace Presenton
         /// <exception cref="global::Presenton.ApiException"></exception>
         public async global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.GenerateContentForSchemaResponse>> GenerateContentForSchemaApiV3SchemaContentGeneratePostAsResponseAsync(
 
-            global::Presenton.GenerateContentForSchemaRequest request,
+            global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost request,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
@@ -477,12 +477,12 @@ namespace Presenton
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
         public async global::System.Threading.Tasks.Task<global::Presenton.GenerateContentForSchemaResponse> GenerateContentForSchemaApiV3SchemaContentGeneratePostAsync(
-            global::Presenton.GenerateContentForSchemaRequestMode mode,
-            object? schema = default,
+            object schema,
+            global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePostMode mode,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
-            var __request = new global::Presenton.GenerateContentForSchemaRequest
+            var __request = new global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost
             {
                 Schema = schema,
                 Mode = mode,

@@ -5,35 +5,38 @@ namespace Presenton
     public partial interface IThemesClient
     {
         /// <summary>
-        /// Update Theme
+        /// Update a user theme<br/>
+        /// Updates a custom theme owned by the authenticated user. Fields are optional; only supplied values are changed. Passing a new `logo` replaces the previous logo asset, and passing `data` replaces the stored colors and fonts.
         /// </summary>
         /// <param name="themeId"></param>
         /// <param name="request"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Presenton.ApiException"></exception>
-        global::System.Threading.Tasks.Task<global::Presenton.PresentationThemeModel> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsync(
+        global::System.Threading.Tasks.Task<global::Presenton.PresentationThemeResponse> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsync(
             global::System.Guid themeId,
 
             global::Presenton.BodyUpdateThemeApiV1PptThemesUpdateThemeIdPatch request,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
-        /// Update Theme
+        /// Update a user theme<br/>
+        /// Updates a custom theme owned by the authenticated user. Fields are optional; only supplied values are changed. Passing a new `logo` replaces the previous logo asset, and passing `data` replaces the stored colors and fonts.
         /// </summary>
         /// <param name="themeId"></param>
         /// <param name="request"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Presenton.ApiException"></exception>
-        global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationThemeModel>> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsResponseAsync(
+        global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationThemeResponse>> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsResponseAsync(
             global::System.Guid themeId,
 
             global::Presenton.BodyUpdateThemeApiV1PptThemesUpdateThemeIdPatch request,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
         /// <summary>
-        /// Update Theme
+        /// Update a user theme<br/>
+        /// Updates a custom theme owned by the authenticated user. Fields are optional; only supplied values are changed. Passing a new `logo` replaces the previous logo asset, and passing `data` replaces the stored colors and fonts.
         /// </summary>
         /// <param name="themeId"></param>
         /// <param name="name"></param>
@@ -44,13 +47,13 @@ namespace Presenton
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
-        global::System.Threading.Tasks.Task<global::Presenton.PresentationThemeModel> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsync(
+        global::System.Threading.Tasks.Task<global::Presenton.PresentationThemeResponse> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsync(
             global::System.Guid themeId,
             string? name = default,
             string? description = default,
             string? companyName = default,
             global::System.Guid? logo = default,
-            object? data = default,
+            global::Presenton.PresentionThemeDataInput? data = default,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }

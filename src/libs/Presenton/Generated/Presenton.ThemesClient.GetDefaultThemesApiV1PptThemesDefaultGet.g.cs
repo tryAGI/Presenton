@@ -40,12 +40,13 @@ namespace Presenton
             ref string content);
 
         /// <summary>
-        /// Get Default Themes
+        /// List default themes<br/>
+        /// Returns all built-in presentation themes available to every user. Use the returned string id as the `theme` value when generating a standard presentation.
         /// </summary>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Presenton.ApiException"></exception>
-        public async global::System.Threading.Tasks.Task<global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>> GetDefaultThemesApiV1PptThemesDefaultGetAsync(
+        public async global::System.Threading.Tasks.Task<global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>> GetDefaultThemesApiV1PptThemesDefaultGetAsync(
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
@@ -57,12 +58,13 @@ namespace Presenton
             return __response.Body;
         }
         /// <summary>
-        /// Get Default Themes
+        /// List default themes<br/>
+        /// Returns all built-in presentation themes available to every user. Use the returned string id as the `theme` value when generating a standard presentation.
         /// </summary>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Presenton.ApiException"></exception>
-        public async global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>>> GetDefaultThemesApiV1PptThemesDefaultGetAsResponseAsync(
+        public async global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>>> GetDefaultThemesApiV1PptThemesDefaultGetAsResponseAsync(
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {
@@ -337,9 +339,9 @@ namespace Presenton
                                 {
                                     __response.EnsureSuccessStatusCode();
 
-                                    var __value = (global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>?)global::System.Text.Json.JsonSerializer.Deserialize(__content, typeof(global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>), JsonSerializerContext) ??
+                                    var __value = (global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>?)global::System.Text.Json.JsonSerializer.Deserialize(__content, typeof(global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>), JsonSerializerContext) ??
                                         throw new global::System.InvalidOperationException($"Response deserialization failed for \"{__content}\" ");
-                                    return new global::Presenton.AutoSDKHttpResponse<global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>>(
+                                    return new global::Presenton.AutoSDKHttpResponse<global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>>(
                                         statusCode: __response.StatusCode,
                                         headers: global::Presenton.AutoSDKHttpResponse.CreateHeaders(__response),
                                         requestUri: __response.RequestMessage?.RequestUri,
@@ -369,9 +371,9 @@ namespace Presenton
                 #endif
                                     ).ConfigureAwait(false);
 
-                                    var __value = (global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>?)await global::System.Text.Json.JsonSerializer.DeserializeAsync(__content, typeof(global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>), JsonSerializerContext).ConfigureAwait(false) ??
+                                    var __value = (global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>?)await global::System.Text.Json.JsonSerializer.DeserializeAsync(__content, typeof(global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>), JsonSerializerContext).ConfigureAwait(false) ??
                                         throw new global::System.InvalidOperationException("Response deserialization failed.");
-                                    return new global::Presenton.AutoSDKHttpResponse<global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>>(
+                                    return new global::Presenton.AutoSDKHttpResponse<global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>>(
                                         statusCode: __response.StatusCode,
                                         headers: global::Presenton.AutoSDKHttpResponse.CreateHeaders(__response),
                                         requestUri: __response.RequestMessage?.RequestUri,
