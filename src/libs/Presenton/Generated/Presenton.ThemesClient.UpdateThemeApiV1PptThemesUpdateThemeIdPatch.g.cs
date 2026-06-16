@@ -44,14 +44,15 @@ namespace Presenton
             ref string content);
 
         /// <summary>
-        /// Update Theme
+        /// Update a user theme<br/>
+        /// Updates a custom theme owned by the authenticated user. Fields are optional; only supplied values are changed. Passing a new `logo` replaces the previous logo asset, and passing `data` replaces the stored colors and fonts.
         /// </summary>
         /// <param name="themeId"></param>
         /// <param name="request"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Presenton.ApiException"></exception>
-        public async global::System.Threading.Tasks.Task<global::Presenton.PresentationThemeModel> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsync(
+        public async global::System.Threading.Tasks.Task<global::Presenton.PresentationThemeResponse> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsync(
             global::System.Guid themeId,
 
             global::Presenton.BodyUpdateThemeApiV1PptThemesUpdateThemeIdPatch request,
@@ -69,14 +70,15 @@ namespace Presenton
             return __response.Body;
         }
         /// <summary>
-        /// Update Theme
+        /// Update a user theme<br/>
+        /// Updates a custom theme owned by the authenticated user. Fields are optional; only supplied values are changed. Passing a new `logo` replaces the previous logo asset, and passing `data` replaces the stored colors and fonts.
         /// </summary>
         /// <param name="themeId"></param>
         /// <param name="request"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::Presenton.ApiException"></exception>
-        public async global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationThemeModel>> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsResponseAsync(
+        public async global::System.Threading.Tasks.Task<global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationThemeResponse>> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsResponseAsync(
             global::System.Guid themeId,
 
             global::Presenton.BodyUpdateThemeApiV1PptThemesUpdateThemeIdPatch request,
@@ -344,6 +346,102 @@ namespace Presenton
                                 retryReason: global::System.String.Empty,
                                 cancellationToken: __effectiveCancellationToken)).ConfigureAwait(false);
                 }
+                            // 
+                            if ((int)__response.StatusCode == 401)
+                            {
+                                string? __content_401 = null;
+                                global::System.Exception? __exception_401 = null;
+                                try
+                                {
+                                    if (__effectiveReadResponseAsString)
+                                    {
+                                        __content_401 = await __response.Content.ReadAsStringAsync(__effectiveCancellationToken).ConfigureAwait(false);
+                                    }
+                                    else
+                                    {
+                                        __content_401 = await __response.Content.ReadAsStringAsync(__effectiveCancellationToken).ConfigureAwait(false);
+                                    }
+                                }
+                                catch (global::System.Exception __ex)
+                                {
+                                    __exception_401 = __ex;
+                                }
+
+
+                                throw global::Presenton.ApiException.Create(
+                                    statusCode: __response.StatusCode,
+                                    message: __content_401 ?? __response.ReasonPhrase ?? string.Empty,
+                                    innerException: __exception_401,
+                                    responseBody: __content_401,
+                                    responseHeaders: global::System.Linq.Enumerable.ToDictionary(
+                                        __response.Headers,
+                                        h => h.Key,
+                                        h => h.Value));
+                            }
+                            // 
+                            if ((int)__response.StatusCode == 403)
+                            {
+                                string? __content_403 = null;
+                                global::System.Exception? __exception_403 = null;
+                                try
+                                {
+                                    if (__effectiveReadResponseAsString)
+                                    {
+                                        __content_403 = await __response.Content.ReadAsStringAsync(__effectiveCancellationToken).ConfigureAwait(false);
+                                    }
+                                    else
+                                    {
+                                        __content_403 = await __response.Content.ReadAsStringAsync(__effectiveCancellationToken).ConfigureAwait(false);
+                                    }
+                                }
+                                catch (global::System.Exception __ex)
+                                {
+                                    __exception_403 = __ex;
+                                }
+
+
+                                throw global::Presenton.ApiException.Create(
+                                    statusCode: __response.StatusCode,
+                                    message: __content_403 ?? __response.ReasonPhrase ?? string.Empty,
+                                    innerException: __exception_403,
+                                    responseBody: __content_403,
+                                    responseHeaders: global::System.Linq.Enumerable.ToDictionary(
+                                        __response.Headers,
+                                        h => h.Key,
+                                        h => h.Value));
+                            }
+                            // 
+                            if ((int)__response.StatusCode == 404)
+                            {
+                                string? __content_404 = null;
+                                global::System.Exception? __exception_404 = null;
+                                try
+                                {
+                                    if (__effectiveReadResponseAsString)
+                                    {
+                                        __content_404 = await __response.Content.ReadAsStringAsync(__effectiveCancellationToken).ConfigureAwait(false);
+                                    }
+                                    else
+                                    {
+                                        __content_404 = await __response.Content.ReadAsStringAsync(__effectiveCancellationToken).ConfigureAwait(false);
+                                    }
+                                }
+                                catch (global::System.Exception __ex)
+                                {
+                                    __exception_404 = __ex;
+                                }
+
+
+                                throw global::Presenton.ApiException.Create(
+                                    statusCode: __response.StatusCode,
+                                    message: __content_404 ?? __response.ReasonPhrase ?? string.Empty,
+                                    innerException: __exception_404,
+                                    responseBody: __content_404,
+                                    responseHeaders: global::System.Linq.Enumerable.ToDictionary(
+                                        __response.Headers,
+                                        h => h.Key,
+                                        h => h.Value));
+                            }
                             // Validation Error
                             if ((int)__response.StatusCode == 422)
                             {
@@ -403,9 +501,9 @@ namespace Presenton
                                 {
                                     __response.EnsureSuccessStatusCode();
 
-                                    var __value = global::Presenton.PresentationThemeModel.FromJson(__content, JsonSerializerContext) ??
+                                    var __value = global::Presenton.PresentationThemeResponse.FromJson(__content, JsonSerializerContext) ??
                                         throw new global::System.InvalidOperationException($"Response deserialization failed for \"{__content}\" ");
-                                    return new global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationThemeModel>(
+                                    return new global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationThemeResponse>(
                                         statusCode: __response.StatusCode,
                                         headers: global::Presenton.AutoSDKHttpResponse.CreateHeaders(__response),
                                         requestUri: __response.RequestMessage?.RequestUri,
@@ -435,9 +533,9 @@ namespace Presenton
                 #endif
                                     ).ConfigureAwait(false);
 
-                                    var __value = await global::Presenton.PresentationThemeModel.FromJsonStreamAsync(__content, JsonSerializerContext).ConfigureAwait(false) ??
+                                    var __value = await global::Presenton.PresentationThemeResponse.FromJsonStreamAsync(__content, JsonSerializerContext).ConfigureAwait(false) ??
                                         throw new global::System.InvalidOperationException("Response deserialization failed.");
-                                    return new global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationThemeModel>(
+                                    return new global::Presenton.AutoSDKHttpResponse<global::Presenton.PresentationThemeResponse>(
                                         statusCode: __response.StatusCode,
                                         headers: global::Presenton.AutoSDKHttpResponse.CreateHeaders(__response),
                                         requestUri: __response.RequestMessage?.RequestUri,
@@ -478,7 +576,8 @@ namespace Presenton
             }
         }
         /// <summary>
-        /// Update Theme
+        /// Update a user theme<br/>
+        /// Updates a custom theme owned by the authenticated user. Fields are optional; only supplied values are changed. Passing a new `logo` replaces the previous logo asset, and passing `data` replaces the stored colors and fonts.
         /// </summary>
         /// <param name="themeId"></param>
         /// <param name="name"></param>
@@ -489,13 +588,13 @@ namespace Presenton
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
         /// <param name="cancellationToken">The token to cancel the operation with</param>
         /// <exception cref="global::System.InvalidOperationException"></exception>
-        public async global::System.Threading.Tasks.Task<global::Presenton.PresentationThemeModel> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsync(
+        public async global::System.Threading.Tasks.Task<global::Presenton.PresentationThemeResponse> UpdateThemeApiV1PptThemesUpdateThemeIdPatchAsync(
             global::System.Guid themeId,
             string? name = default,
             string? description = default,
             string? companyName = default,
             global::System.Guid? logo = default,
-            object? data = default,
+            global::Presenton.PresentionThemeDataInput? data = default,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default)
         {

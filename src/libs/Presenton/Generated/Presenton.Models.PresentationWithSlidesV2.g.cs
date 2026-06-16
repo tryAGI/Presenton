@@ -61,6 +61,12 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
+        [global::System.Text.Json.Serialization.JsonPropertyName("design_v2_id")]
+        public global::System.Guid? DesignV2Id { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("fonts")]
         public object? Fonts { get; set; }
 
@@ -89,6 +95,7 @@ namespace Presenton
         /// <param name="verbosity"></param>
         /// <param name="language"></param>
         /// <param name="designSystemId"></param>
+        /// <param name="designV2Id"></param>
         /// <param name="fonts"></param>
 #if NET7_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembers]
@@ -103,6 +110,7 @@ namespace Presenton
             string? verbosity,
             string? language,
             global::System.Guid? designSystemId,
+            global::System.Guid? designV2Id,
             object? fonts)
         {
             this.Id = id;
@@ -113,6 +121,7 @@ namespace Presenton
             this.Verbosity = verbosity;
             this.Language = language;
             this.DesignSystemId = designSystemId;
+            this.DesignV2Id = designV2Id;
             this.Fonts = fonts;
             this.Slides = slides ?? throw new global::System.ArgumentNullException(nameof(slides));
         }

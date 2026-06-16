@@ -42,7 +42,8 @@ namespace Presenton
             ref string content);
 
         /// <summary>
-        /// Generate Theme V3
+        /// Generate theme colors<br/>
+        /// Generates a complete theme color palette from optional seed colors. Provide any combination of `primary`, `background`, `accent_1`, `accent_2`, `text_1`, and `text_2`; missing colors are derived automatically. The response contains presentation-ready colors for backgrounds, text, cards, strokes, and graph series.
         /// </summary>
         /// <param name="request"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
@@ -64,7 +65,8 @@ namespace Presenton
             return __response.Body;
         }
         /// <summary>
-        /// Generate Theme V3
+        /// Generate theme colors<br/>
+        /// Generates a complete theme color palette from optional seed colors. Provide any combination of `primary`, `background`, `accent_1`, `accent_2`, `text_1`, and `text_2`; missing colors are derived automatically. The response contains presentation-ready colors for backgrounds, text, cards, strokes, and graph series.
         /// </summary>
         /// <param name="request"></param>
         /// <param name="requestOptions">Per-request overrides such as headers, query parameters, timeout, retries, and response buffering.</param>
@@ -335,6 +337,38 @@ namespace Presenton
                                 retryReason: global::System.String.Empty,
                                 cancellationToken: __effectiveCancellationToken)).ConfigureAwait(false);
                 }
+                            // 
+                            if ((int)__response.StatusCode == 401)
+                            {
+                                string? __content_401 = null;
+                                global::System.Exception? __exception_401 = null;
+                                try
+                                {
+                                    if (__effectiveReadResponseAsString)
+                                    {
+                                        __content_401 = await __response.Content.ReadAsStringAsync(__effectiveCancellationToken).ConfigureAwait(false);
+                                    }
+                                    else
+                                    {
+                                        __content_401 = await __response.Content.ReadAsStringAsync(__effectiveCancellationToken).ConfigureAwait(false);
+                                    }
+                                }
+                                catch (global::System.Exception __ex)
+                                {
+                                    __exception_401 = __ex;
+                                }
+
+
+                                throw global::Presenton.ApiException.Create(
+                                    statusCode: __response.StatusCode,
+                                    message: __content_401 ?? __response.ReasonPhrase ?? string.Empty,
+                                    innerException: __exception_401,
+                                    responseBody: __content_401,
+                                    responseHeaders: global::System.Linq.Enumerable.ToDictionary(
+                                        __response.Headers,
+                                        h => h.Key,
+                                        h => h.Value));
+                            }
                             // Validation Error
                             if ((int)__response.StatusCode == 422)
                             {
@@ -469,7 +503,8 @@ namespace Presenton
             }
         }
         /// <summary>
-        /// Generate Theme V3
+        /// Generate theme colors<br/>
+        /// Generates a complete theme color palette from optional seed colors. Provide any combination of `primary`, `background`, `accent_1`, `accent_2`, `text_1`, and `text_2`; missing colors are derived automatically. The response contains presentation-ready colors for backgrounds, text, cards, strokes, and graph series.
         /// </summary>
         /// <param name="primary"></param>
         /// <param name="background"></param>

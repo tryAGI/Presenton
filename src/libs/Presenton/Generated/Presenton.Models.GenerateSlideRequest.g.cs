@@ -23,12 +23,6 @@ namespace Presenton
         public required string Prompt { get; set; }
 
         /// <summary>
-        /// 
-        /// </summary>
-        [global::System.Text.Json.Serialization.JsonPropertyName("qualitativechart")]
-        public global::Presenton.QualitativeChart? Qualitativechart { get; set; }
-
-        /// <summary>
         /// Additional properties that are not explicitly defined in the schema
         /// </summary>
         [global::System.Text.Json.Serialization.JsonExtensionData]
@@ -39,18 +33,15 @@ namespace Presenton
         /// </summary>
         /// <param name="presentationId"></param>
         /// <param name="prompt"></param>
-        /// <param name="qualitativechart"></param>
 #if NET7_0_OR_GREATER
         [global::System.Diagnostics.CodeAnalysis.SetsRequiredMembers]
 #endif
         public GenerateSlideRequest(
             global::System.Guid presentationId,
-            string prompt,
-            global::Presenton.QualitativeChart? qualitativechart)
+            string prompt)
         {
             this.PresentationId = presentationId;
             this.Prompt = prompt ?? throw new global::System.ArgumentNullException(nameof(prompt));
-            this.Qualitativechart = qualitativechart;
         }
 
         /// <summary>

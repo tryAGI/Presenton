@@ -4,7 +4,7 @@
 namespace Presenton
 {
     /// <summary>
-    /// Smart design to use for the presentation
+    /// Design V2 id to use for the smart presentation
     /// </summary>
     public sealed partial class GeneratePresentationRequestV3SmartDesign
     {

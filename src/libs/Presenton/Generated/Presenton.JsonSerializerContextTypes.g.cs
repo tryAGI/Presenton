@@ -96,7 +96,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyCheckFontsInPptxApiV1PptFontsCheckPost? Type17 { get; set; }
+        public global::Presenton.BodyCheckFontsInPptxHandlerApiV1PptFontsCheckPost? Type17 { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -104,7 +104,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyCheckFontsInPptxApiV2PptFontsCheckPost? Type19 { get; set; }
+        public global::Presenton.BodyCheckFontsInPptxHandlerApiV2PptFontsCheckPost? Type19 { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -140,19 +140,19 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyDecomposeFilesApiV1PptFilesDecomposePost? Type28 { get; set; }
+        public global::Presenton.PresentionThemeDataInput? Type28 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyDeleteUserApiV1DebugDeleteUserDelete? Type29 { get; set; }
+        public global::Presenton.BodyCreateThemeApiV3ThemeCreatePost? Type29 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyEditHtmlWithImagesEndpointApiV1PptHtmlEditPost? Type30 { get; set; }
+        public global::Presenton.BodyDecomposeFilesApiV1PptFilesDecomposePost? Type30 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyEditReactWithImageEndpointApiV1PptReactEditPost? Type31 { get; set; }
+        public global::Presenton.BodyDeleteUserApiV1DebugDeleteUserDelete? Type31 { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -164,99 +164,99 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPost? Type34 { get; set; }
+        public global::Presenton.BodyExportPresentationApiV1DebugExportPresentationPost? Type34 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPostExportAs? Type35 { get; set; }
+        public global::Presenton.BodyExportPresentationApiV1DebugExportPresentationPostExportAs? Type35 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyExportPresentationAsPptxOrPdfV2ApiV2PptPresentationExportPost? Type36 { get; set; }
+        public global::Presenton.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPost? Type36 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyExportPresentationAsPptxOrPdfV2ApiV2PptPresentationExportPostExportAs? Type37 { get; set; }
+        public global::Presenton.BodyExportPresentationAsPptxOrPdfV1ApiV1PptPresentationExportPostExportAs? Type37 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPost? Type38 { get; set; }
+        public global::Presenton.BodyExportPresentationAsPptxOrPdfV2ApiV2PptPresentationExportPost? Type38 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPostExportAs? Type39 { get; set; }
+        public global::Presenton.BodyExportPresentationAsPptxOrPdfV2ApiV2PptPresentationExportPostExportAs? Type39 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyGetJwtTokenApiV1DebugGetJwtTokenPost? Type40 { get; set; }
+        public global::Presenton.BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPost? Type40 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyInitFixSlideApiV2PptFixSlideInitPost? Type41 { get; set; }
+        public global::Presenton.BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPostExportAs? Type41 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyInitHtmlCreateApiV1PptHtmlCreateInitPost? Type42 { get; set; }
+        public global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePost? Type42 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<byte[]>? Type43 { get; set; }
+        public global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePostMode? Type43 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyInitHtmlEditApiV1PptHtmlEditInitPost? Type44 { get; set; }
+        public global::Presenton.BodyGetJwtTokenApiV1DebugGetJwtTokenPost? Type44 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyModifySubscriptionApiV1BillingSubscriptionModifyPost? Type45 { get; set; }
+        public global::Presenton.BodyImportPresentationFromPptxFileApiV2PptPresentationImportFromPptxFilePost? Type45 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyPatchMeApiV1AuthProfileUpdatePatch? Type46 { get; set; }
+        public global::System.Collections.Generic.IList<byte[]>? Type46 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyPreparePresentationApiV1PptPresentationPreparePost? Type47 { get; set; }
+        public global::Presenton.BodyInitFixSlideApiV2PptFixSlideInitPost? Type47 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.SlideOutlineModel>? Type48 { get; set; }
+        public global::Presenton.BodyModifySubscriptionApiV1BillingSubscriptionModifyPost? Type48 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideOutlineModel? Type49 { get; set; }
+        public global::Presenton.BodyPatchMeApiV1AuthProfileUpdatePatch? Type49 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PresentationLayoutModel? Type50 { get; set; }
+        public global::Presenton.BodyPreparePresentationApiV1PptPresentationPreparePost? Type50 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyPresentationExportApiV1OnPresentationExportPost? Type51 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.SlideOutlineModel>? Type51 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyPresentationExportApiV1OnPresentationExportPostExportAs? Type52 { get; set; }
+        public global::Presenton.SlideOutlineModel? Type52 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyPresentationExportApiV2OnPresentationExportPost? Type53 { get; set; }
+        public global::Presenton.PresentationLayoutModel? Type53 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyPresentationExportApiV2OnPresentationExportPostExportAs? Type54 { get; set; }
+        public global::Presenton.BodyPresentationExportApiV1OnPresentationExportPost? Type54 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyProcessPdfSlidesApiV1PptPdfSlidesProcessPost? Type55 { get; set; }
+        public global::Presenton.BodyPresentationExportApiV1OnPresentationExportPostExportAs? Type55 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyProcessPptxFontsApiV1PptPptxFontsProcessPost? Type56 { get; set; }
+        public global::Presenton.BodyPresentationExportApiV2OnPresentationExportPost? Type56 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyProcessPptxSlidesApiV1PptPptxSlidesProcessPost? Type57 { get; set; }
+        public global::Presenton.BodyPresentationExportApiV2OnPresentationExportPostExportAs? Type57 { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -304,7 +304,7 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUnsubscribeToWebhookV3ApiV3WebhookUnsubscribeDelete? Type69 { get; set; }
+        public global::Presenton.BodyUnsubscribeToWebhookV1ApiV3WebhookUnsubscribeDelete? Type69 { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -324,843 +324,839 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadFilesAndGetTemporaryUrlsApiV1PptFilesUploadAndGetTemporaryUrlsPost? Type74 { get; set; }
+        public global::Presenton.BodyUpdateThemeApiV3ThemeUpdateThemeIdPatch? Type74 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadFilesForUiApiV1PptFilesUploadUiPost? Type75 { get; set; }
+        public global::Presenton.BodyUploadFilesAndGetTemporaryUrlsApiV1PptFilesUploadAndGetTemporaryUrlsPost? Type75 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadFilesV1ApiV1PptFilesUploadPost? Type76 { get; set; }
+        public global::Presenton.BodyUploadFilesForUiApiV1PptFilesUploadUiPost? Type76 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadFilesV3ApiV3FilesUploadPost? Type77 { get; set; }
+        public global::Presenton.BodyUploadFilesV1ApiV1PptFilesUploadPost? Type77 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadFontApiV1PptFontsUploadPost? Type78 { get; set; }
+        public global::Presenton.BodyUploadFilesV1ApiV3FilesUploadPost? Type78 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadFontsAndSlidesPreviewApiV1PptTemplateFontsUploadAndSlidesPreviewPost? Type79 { get; set; }
+        public global::Presenton.BodyUploadFontApiV1PptFontsUploadPost? Type79 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadFontsAndSlidesPreviewApiV2PptFontsUploadAndPreviewPost? Type80 { get; set; }
+        public global::Presenton.BodyUploadFontsAndSlidesPreviewApiV1PptTemplateFontsUploadAndSlidesPreviewPost? Type80 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadImageForUiApiV1PptImagesUploadUiPost? Type81 { get; set; }
+        public global::Presenton.BodyUploadFontsAndSlidesPreviewApiV2PptFontsUploadAndPreviewPost? Type81 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadImageV1ApiV1PptImagesUploadPost? Type82 { get; set; }
+        public global::Presenton.BodyUploadImageForUiApiV1PptImagesUploadUiPost? Type82 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyUploadImageV3ApiV3ImagesUploadPost? Type83 { get; set; }
+        public global::Presenton.BodyUploadImageV1ApiV1PptImagesUploadPost? Type83 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyVerifyRequestTokenApiV1AuthRequestVerifyTokenPost? Type84 { get; set; }
+        public global::Presenton.BodyUploadImageV1ApiV3ImagesUploadPost? Type84 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.BodyVerifyVerifyApiV1AuthVerifyPost? Type85 { get; set; }
+        public global::Presenton.BodyVerifyRequestTokenApiV1AuthRequestVerifyTokenPost? Type85 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CheckCreditBalanceResponse? Type86 { get; set; }
+        public global::Presenton.BodyVerifyVerifyApiV1AuthVerifyPost? Type86 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public double? Type87 { get; set; }
+        public global::Presenton.ChangePasswordRequest? Type87 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CloneSlideLayoutRequest? Type88 { get; set; }
+        public global::Presenton.ChatConversationListItem? Type88 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CloneTemplateRequest? Type89 { get; set; }
+        public global::Presenton.ChatEditMessageRequest? Type89 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ContentGenerationMode? Type90 { get; set; }
+        public global::Presenton.ChatEditMessageRequestPresentationType? Type90 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreateCheckoutSessionRequest? Type91 { get; set; }
+        public global::Presenton.ChatHistoryMessageItem? Type91 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreateCheckoutSessionResponse? Type92 { get; set; }
+        public global::Presenton.ChatHistoryResponse? Type92 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreateDesignSystemRequest? Type93 { get; set; }
+        public global::Presenton.ChatHistoryResponsePresentationType? Type93 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreatePortalSessionResponse? Type94 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.ChatHistoryMessageItem>? Type94 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreatePresentationFromJsonRequestV1? Type95 { get; set; }
+        public global::Presenton.ChatMessageRequest? Type95 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.CreateSlideFromJsonRequestV1>? Type96 { get; set; }
+        public global::Presenton.ChatMessageRequestPresentationType? Type96 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreateSlideFromJsonRequestV1? Type97 { get; set; }
+        public global::Presenton.ChatMessageResponse? Type97 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreatePresentationFromJsonRequestV1ExportAs? Type98 { get; set; }
+        public global::Presenton.CheckCreditBalanceResponse? Type98 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreatePresentationFromJsonRequestV3? Type99 { get; set; }
+        public double? Type99 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreatePresentationFromJsonRequestV3ExportAs? Type100 { get; set; }
+        public global::Presenton.CloneSlideLayoutRequest? Type100 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreateSlideLayoutRequest? Type101 { get; set; }
+        public global::Presenton.CloneTemplateRequest? Type101 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreateSlideLayoutResponse? Type102 { get; set; }
+        public global::Presenton.ContentGenerationMode? Type102 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreateTemplateInitRequest? Type103 { get; set; }
+        public global::Presenton.CreateCheckoutSessionRequest? Type103 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreditAccount? Type104 { get; set; }
+        public global::Presenton.CreateCheckoutSessionResponse? Type104 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreditAccountWithBalance? Type105 { get; set; }
+        public global::Presenton.CreateDesignAsyncRequest? Type105 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreditAddTransactionRead? Type106 { get; set; }
+        public global::Presenton.CreateDesignInitRequest? Type106 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreditsRate? Type107 { get; set; }
+        public global::Presenton.CreateDesignReferenceRequest? Type107 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.CreditsRatesAndAutoTopupInfoResponse? Type108 { get; set; }
+        public global::Presenton.CreateDesignReferenceResponse? Type108 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.TopupInfo? Type109 { get; set; }
+        public global::Presenton.CreateDesignRequest? Type109 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.DecomposedFileInfo? Type110 { get; set; }
+        public global::Presenton.CreatePortalSessionResponse? Type110 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.DefaultPresentationThemeModel? Type111 { get; set; }
+        public global::Presenton.CreatePresentationFromJsonRequestV1? Type111 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.DesignSystemExportInfo? Type112 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.CreateSlideFromJsonRequestV1>? Type112 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<object>? Type113 { get; set; }
+        public global::Presenton.CreateSlideFromJsonRequestV1? Type113 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.DesignSystemSlideInput? Type114 { get; set; }
+        public global::Presenton.CreatePresentationFromJsonRequestV1ExportAs? Type114 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.Device? Type115 { get; set; }
+        public global::Presenton.CreatePresentationFromJsonRequestV3? Type115 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.DownloadFormat? Type116 { get; set; }
+        public global::Presenton.CreatePresentationFromJsonRequestV3ExportAs? Type116 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditOutlineRequestV2? Type117 { get; set; }
+        public global::Presenton.CreateSlideLayoutRequest? Type117 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditPresentationRequest? Type118 { get; set; }
+        public global::Presenton.CreateSlideLayoutResponse? Type118 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.SlideContentUpdate>? Type119 { get; set; }
+        public global::Presenton.CreateTemplateInitRequest? Type119 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideContentUpdate? Type120 { get; set; }
+        public global::Presenton.CreditAccount? Type120 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditPresentationRequestExportAs? Type121 { get; set; }
+        public global::Presenton.CreditAccountWithBalance? Type121 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSectionHTMLRequestV2? Type122 { get; set; }
+        public global::Presenton.CreditAddTransactionRead? Type122 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSectionHTMLResponseV2? Type123 { get; set; }
+        public global::Presenton.CreditsRate? Type123 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSlideHTMLRequestV2? Type124 { get; set; }
+        public global::Presenton.CreditsRatesAndAutoTopupInfoResponse? Type124 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSlideHTMLResponseV2? Type125 { get; set; }
+        public global::Presenton.TopupInfo? Type125 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSlideLayoutRequest? Type126 { get; set; }
+        public global::Presenton.DecomposedFileInfo? Type126 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSlideLayoutResponse? Type127 { get; set; }
+        public global::Presenton.DefaultPresentationThemeResponse? Type127 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSlideLayoutSectionRequest? Type128 { get; set; }
+        public global::Presenton.PresentionThemeDataOutput? Type128 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSlideLayoutSectionResponse? Type129 { get; set; }
+        public global::Presenton.DesignExportInfo? Type129 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSlideRequest? Type130 { get; set; }
+        public global::System.Collections.Generic.IList<object>? Type130 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EditSlideRequestExportAs2? Type131 { get; set; }
+        public global::Presenton.Device? Type131 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseCreditsAddResponse? Type132 { get; set; }
+        public global::Presenton.DownloadFormat? Type132 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.UserRead? Type133 { get; set; }
+        public global::Presenton.EditDesignReferenceRequest? Type133 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseCreditsAddsResponse? Type134 { get; set; }
+        public global::Presenton.EditDesignReferenceResponse? Type134 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.CreditAddTransactionRead>? Type135 { get; set; }
+        public global::Presenton.EditDesignReferenceSectionRequest? Type135 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseCreditsInfoResponse? Type136 { get; set; }
+        public global::Presenton.EditDesignReferenceSectionResponse? Type136 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseLoginResponse? Type137 { get; set; }
+        public global::Presenton.EditOutlineRequestV2? Type137 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterprisePresentationRead? Type138 { get; set; }
+        public global::Presenton.EditPresentationRequest? Type138 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterprisePresentationsInfoResponse? Type139 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.SlideContentUpdate>? Type139 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterprisePresentationsResponse? Type140 { get; set; }
+        public global::Presenton.SlideContentUpdate? Type140 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.EnterprisePresentationRead>? Type141 { get; set; }
+        public global::Presenton.EditPresentationRequestExportAs? Type141 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseRead? Type142 { get; set; }
+        public global::Presenton.EditSectionHTMLRequestV2? Type142 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUserAccessTokenRead? Type143 { get; set; }
+        public global::Presenton.EditSectionHTMLResponseV2? Type143 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUserAccessTokensResponse? Type144 { get; set; }
+        public global::Presenton.EditSlideHTMLRequestV2? Type144 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.EnterpriseUserAccessTokenRead>? Type145 { get; set; }
+        public global::Presenton.EditSlideHTMLResponseV2? Type145 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUserAddRequest? Type146 { get; set; }
+        public global::Presenton.EditSlideLayoutRequest? Type146 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUserCreditsAddRequest? Type147 { get; set; }
+        public global::Presenton.EditSlideLayoutResponse? Type147 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUserCreditsInfoResponse? Type148 { get; set; }
+        public global::Presenton.EditSlideLayoutSectionRequest? Type148 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUserPasswordResetRequest? Type149 { get; set; }
+        public global::Presenton.EditSlideLayoutSectionResponse? Type149 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUserPresentationsInfoResponse? Type150 { get; set; }
+        public global::Presenton.EditSlideRequest? Type150 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUsersInfoResponse? Type151 { get; set; }
+        public global::Presenton.EditSlideRequestExportAs2? Type151 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.EnterpriseUsersResponse? Type152 { get; set; }
+        public global::Presenton.EnterpriseCreditsAddResponse? Type152 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.UserRead>? Type153 { get; set; }
+        public global::Presenton.UserRead? Type153 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ErrorModel? Type154 { get; set; }
+        public global::Presenton.EnterpriseCreditsAddsResponse? Type154 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.AnyOf<string, global::System.Collections.Generic.Dictionary<string, string>>? Type155 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.CreditAddTransactionRead>? Type155 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.Dictionary<string, string>? Type156 { get; set; }
+        public global::Presenton.EnterpriseCreditsInfoResponse? Type156 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ErrorResponse? Type157 { get; set; }
+        public global::Presenton.EnterpriseLoginResponse? Type157 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ExtractDesignSystemRequest? Type158 { get; set; }
+        public global::Presenton.EnterprisePresentationRead? Type158 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.DesignSystemSlideInput>? Type159 { get; set; }
+        public global::Presenton.EnterprisePresentationsInfoResponse? Type159 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ExtractDesignSystemResponse? Type160 { get; set; }
+        public global::Presenton.EnterprisePresentationsResponse? Type160 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.FontAnalysisResult? Type161 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.EnterprisePresentationRead>? Type161 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::System.Collections.Generic.Dictionary<string, string>>? Type162 { get; set; }
+        public global::Presenton.EnterpriseRead? Type162 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.FontCheckResponse? Type163 { get; set; }
+        public global::Presenton.EnterpriseUserAccessTokenRead? Type163 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.FontInfo>? Type164 { get; set; }
+        public global::Presenton.EnterpriseUserAccessTokensResponse? Type164 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.FontInfo? Type165 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.EnterpriseUserAccessTokenRead>? Type165 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.FontDetail? Type166 { get; set; }
+        public global::Presenton.EnterpriseUserAddRequest? Type166 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.FontListResponse? Type167 { get; set; }
+        public global::Presenton.EnterpriseUserCreditsAddRequest? Type167 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.FontDetail>? Type168 { get; set; }
+        public global::Presenton.EnterpriseUserCreditsInfoResponse? Type168 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.FontsUploadAndSlidesPreviewResponse? Type169 { get; set; }
+        public global::Presenton.EnterpriseUserPasswordResetRequest? Type169 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateContentForSchemaRequest? Type170 { get; set; }
+        public global::Presenton.EnterpriseUserPresentationsInfoResponse? Type170 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateContentForSchemaRequestMode? Type171 { get; set; }
+        public global::Presenton.EnterpriseUsersInfoResponse? Type171 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateContentForSchemaResponse? Type172 { get; set; }
+        public global::Presenton.EnterpriseUsersResponse? Type172 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateHTMLPresentationRequestV2? Type173 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.UserRead>? Type173 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateHTMLPresentationRequestV2ImageType? Type174 { get; set; }
+        public global::Presenton.ErrorModel? Type174 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateHTMLPresentationResponseV2? Type175 { get; set; }
+        public global::Presenton.AnyOf<string, global::System.Collections.Generic.Dictionary<string, string>>? Type175 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateOutlinesRequest? Type176 { get; set; }
+        public global::System.Collections.Generic.Dictionary<string, string>? Type176 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV1? Type177 { get; set; }
+        public global::Presenton.FontCheckResponse? Type177 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV1ImageType? Type178 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.FontInfo>? Type178 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV1ExportAs? Type179 { get; set; }
+        public global::Presenton.FontInfo? Type179 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV2? Type180 { get; set; }
+        public global::Presenton.FontDetail? Type180 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.SlideContentLayout>? Type181 { get; set; }
+        public global::Presenton.FontListResponse? Type181 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideContentLayout? Type182 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.FontDetail>? Type182 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV2ImageType? Type183 { get; set; }
+        public global::Presenton.FontsUploadAndSlidesPreviewResponse? Type183 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV2ExportAs? Type184 { get; set; }
+        public global::Presenton.GenerateContentForSchemaResponse? Type184 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV3? Type185 { get; set; }
+        public global::Presenton.GenerateHTMLPresentationRequestV2? Type185 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV3ImageType? Type186 { get; set; }
+        public global::Presenton.GenerateHTMLPresentationRequestV2ImageType? Type186 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GeneratePresentationRequestV3ExportAs? Type187 { get; set; }
+        public global::Presenton.GenerateHTMLPresentationResponseV2? Type187 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateSlideRequest? Type188 { get; set; }
+        public global::Presenton.GenerateOutlinesRequest? Type188 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.QualitativeChart? Type189 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV1? Type189 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateSlideResponse? Type190 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV1ImageType? Type190 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateThemeRequestV3? Type191 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV1ExportAs? Type191 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GetJwtTokenResponse? Type192 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV2? Type192 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GetLayoutsResponse? Type193 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.SlideContentLayout>? Type193 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.LayoutData>? Type194 { get; set; }
+        public global::Presenton.SlideContentLayout? Type194 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.LayoutData? Type195 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV2ImageType? Type195 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>? Type196 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV2ExportAs? Type196 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GetMeResponse? Type197 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV3? Type197 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GetPresentationStatusResponseV2? Type198 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV3ImageType? Type198 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GetPresentationSummaryResponse? Type199 { get; set; }
+        public global::Presenton.GeneratePresentationRequestV3ExportAs? Type199 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.PresentationSummary>? Type200 { get; set; }
+        public global::Presenton.GenerateSlideRequest? Type200 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PresentationSummary? Type201 { get; set; }
+        public global::Presenton.GenerateSlideResponse? Type201 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GetTemplateLayoutsResponse? Type202 { get; set; }
+        public global::Presenton.GenerateThemeRequestV3? Type202 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.TemplateLayoutData>? Type203 { get; set; }
+        public global::Presenton.GetJwtTokenResponse? Type203 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.TemplateLayoutData? Type204 { get; set; }
+        public global::Presenton.GetMeResponse? Type204 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.TemplateData? Type205 { get; set; }
+        public global::Presenton.GetMultipleTemplateLayoutsRequest? Type205 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.HTMLSlideV2? Type206 { get; set; }
+        public global::Presenton.GetPresentationStatusResponseV2? Type206 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.HTTPValidationError? Type207 { get; set; }
+        public global::Presenton.GetTemplateLayoutsResponse? Type207 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.ValidationError>? Type208 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.TemplateLayoutData>? Type208 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ValidationError? Type209 { get; set; }
+        public global::Presenton.TemplateLayoutData? Type209 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.HealthResponse? Type210 { get; set; }
+        public global::Presenton.TemplateData? Type210 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.HtmlEditInitResponse? Type211 { get; set; }
+        public global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>? Type211 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.HtmlEditResponse? Type212 { get; set; }
+        public global::Presenton.HTMLDesignV2Detail? Type212 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.HtmlToReactRequest? Type213 { get; set; }
+        public global::Presenton.HTMLSlideV2? Type213 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.HtmlToReactResponse? Type214 { get; set; }
+        public global::Presenton.HTTPValidationError? Type214 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ImageAsset? Type215 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.ValidationError>? Type215 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ModifySubscriptionResponse? Type216 { get; set; }
+        public global::Presenton.ValidationError? Type216 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.OAuth2AuthorizeResponse? Type217 { get; set; }
+        public global::Presenton.HealthResponse? Type217 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.OnboardingQuestion? Type218 { get; set; }
+        public global::Presenton.ImageAsset? Type218 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PaginatedResponse? Type219 { get; set; }
+        public global::Presenton.ModifySubscriptionResponse? Type219 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PaginatedVariationsResponse? Type220 { get; set; }
+        public global::Presenton.OAuth2AuthorizeResponse? Type220 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PdfSlideData? Type221 { get; set; }
+        public global::Presenton.OnboardingQuestion? Type221 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PdfSlidesResponse? Type222 { get; set; }
+        public global::Presenton.PaginatedResponse? Type222 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.PdfSlideData>? Type223 { get; set; }
+        public global::Presenton.PaginatedVariationsResponse? Type223 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PptxFontsResponse? Type224 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.SlideLayoutModel>? Type224 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PptxSlidesResponse? Type225 { get; set; }
+        public global::Presenton.SlideLayoutModel? Type225 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.SlideData>? Type226 { get; set; }
+        public global::Presenton.PresentationModel? Type226 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideData? Type227 { get; set; }
+        public global::Presenton.PresentationPathAndEditPath? Type227 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.SlideLayoutModel>? Type228 { get; set; }
+        public global::Presenton.PresentationThemeResponse? Type228 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideLayoutModel? Type229 { get; set; }
+        public global::Presenton.PresentationWithSlidesV1? Type229 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PresentationModel? Type230 { get; set; }
+        public global::Presenton.PresentationWithSlidesV2? Type230 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PresentationPathAndEditPath? Type231 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.HTMLSlideV2>? Type231 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PresentationThemeModel? Type232 { get; set; }
+        public global::Presenton.PresentionThemeColors? Type232 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PresentationWithSlidesV1? Type233 { get; set; }
+        public global::Presenton.PresentionThemeFonts? Type233 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PresentationWithSlidesV2? Type234 { get; set; }
+        public global::Presenton.PresentionThemeTextFont? Type234 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.HTMLSlideV2>? Type235 { get; set; }
+        public global::Presenton.PriceItem? Type235 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PriceItem? Type236 { get; set; }
+        public global::Presenton.PurchaseCreditsRequest? Type236 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.PurchaseCreditsRequest? Type237 { get; set; }
+        public global::Presenton.ReactivateSubscriptionResponse? Type237 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ReactivateSubscriptionResponse? Type238 { get; set; }
+        public global::Presenton.SaveDesignReferenceData? Type238 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SaveLayoutsRequest? Type239 { get; set; }
+        public global::Presenton.SaveDesignRequest? Type239 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SaveLayoutsResponse? Type240 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.SaveDesignReferenceData>? Type240 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SaveSlideLayoutRequest? Type241 { get; set; }
+        public global::Presenton.SaveDesignResponse? Type241 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SaveTemplateLayoutData? Type242 { get; set; }
+        public global::Presenton.SaveSlideLayoutRequest? Type242 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SaveTemplateRequest? Type243 { get; set; }
+        public global::Presenton.SaveTemplateLayoutData? Type243 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.SaveTemplateLayoutData>? Type244 { get; set; }
+        public global::Presenton.SaveTemplateRequest? Type244 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SaveTemplateResponse? Type245 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.SaveTemplateLayoutData>? Type245 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SegmentVariationsRequest? Type246 { get; set; }
+        public global::Presenton.SaveTemplateResponse? Type246 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideExample? Type247 { get; set; }
+        public global::Presenton.SegmentVariationsRequest? Type247 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideToHtmlRequest? Type248 { get; set; }
+        public global::Presenton.SlideExample? Type248 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideToHtmlResponse? Type249 { get; set; }
+        public global::Presenton.SubscribeToWebhookRequestV1? Type249 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideToReactRequest? Type250 { get; set; }
+        public global::Presenton.WebhookEvent? Type250 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SlideToReactResponse? Type251 { get; set; }
+        public global::Presenton.SubscribeToWebhookResponseV1? Type251 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SubscribeToWebhookRequestV1? Type252 { get; set; }
+        public global::Presenton.Subscription? Type252 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.WebhookEvent? Type253 { get; set; }
+        public global::Presenton.TemplateDetail? Type253 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.SubscribeToWebhookResponseV1? Type254 { get; set; }
+        public global::Presenton.TemplateExample? Type254 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.Subscription? Type255 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.SlideExample>? Type255 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.TemplateCreateRequest? Type256 { get; set; }
+        public global::Presenton.TemplateExampleV3? Type256 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.TemplateCreateResponse? Type257 { get; set; }
+        public global::Presenton.ThemeData? Type257 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.TemplateDetail? Type258 { get; set; }
+        public global::Presenton.UpdatePresentationRequestV2? Type258 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.TemplateExample? Type259 { get; set; }
+        public global::Presenton.UpdateTemplateRequest? Type259 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.SlideExample>? Type260 { get; set; }
+        public global::Presenton.UserCreate? Type260 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.TemplateExampleV3? Type261 { get; set; }
+        public global::Presenton.UserUpdate? Type261 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.ThemeData? Type262 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.AnyOf<string, int?>>? Type262 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.UpdatePresentationRequestV2? Type263 { get; set; }
+        public global::Presenton.AnyOf<string, int?>? Type263 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.UpdateTemplateRequest? Type264 { get; set; }
+        public global::Presenton.VariationsResponse? Type264 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.UserCreate? Type265 { get; set; }
+        public global::Presenton.GenerateImageApiV1PptImagesGenerateGetImageType? Type265 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.UserUpdate? Type266 { get; set; }
+        public global::Presenton.GenerateImagesApiV2PptImagesGenerateGetImageType? Type266 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.AnyOf<string, int?>>? Type267 { get; set; }
+        public global::Presenton.ListChatConversationsApiV3ChatConversationsGetPresentationType? Type267 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.AnyOf<string, int?>? Type268 { get; set; }
+        public global::Presenton.GetChatHistoryApiV3ChatHistoryGetPresentationType? Type268 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.VariationsResponse? Type269 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.AccessToken>? Type269 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateImageApiV1PptImagesGenerateGetImageType? Type270 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.DecomposedFileInfo>? Type270 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.GenerateImagesApiV2PptImagesGenerateGetImageType? Type271 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.TemplateDetail>? Type271 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.AccessToken>? Type272 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.GetTemplateLayoutsResponse>? Type272 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.DecomposedFileInfo>? Type273 { get; set; }
+        public global::Presenton.AnyOf<global::Presenton.PresentationPathAndEditPath, global::Presenton.SlideModel>? Type273 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.TemplateDetail>? Type274 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeResponse>? Type274 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.AnyOf<global::Presenton.PresentationPathAndEditPath, global::Presenton.SlideModel>? Type275 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.PresentationThemeResponse>? Type275 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.DefaultPresentationThemeModel>? Type276 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.PriceItem>? Type276 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.PresentationThemeModel>? Type277 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.PresentationPathAndEditPath>? Type277 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.PriceItem>? Type278 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.APIErrorModel>? Type278 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.PresentationPathAndEditPath>? Type279 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.OnboardingQuestion>? Type279 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.APIErrorModel>? Type280 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.ChatConversationListItem>? Type280 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.OnboardingQuestion>? Type281 { get; set; }
+        public global::Presenton.AnyOf<global::Presenton.PresentationWithSlidesV1, global::Presenton.PresentationWithSlidesV2>? Type281 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.AnyOf<global::Presenton.PresentationWithSlidesV1, global::Presenton.PresentationWithSlidesV2>? Type282 { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        public global::System.Collections.Generic.IList<global::Presenton.SubscribeToWebhookResponseV1>? Type283 { get; set; }
+        public global::System.Collections.Generic.IList<global::Presenton.SubscribeToWebhookResponseV1>? Type282 { get; set; }
 
         /// <summary>
         /// 
@@ -1181,138 +1177,130 @@ namespace Presenton
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.CreateSlideFromJsonRequestV1>? ListType4 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.ChatHistoryMessageItem>? ListType4 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<object>? ListType5 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.CreateSlideFromJsonRequestV1>? ListType5 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.SlideContentUpdate>? ListType6 { get; set; }
+        public global::System.Collections.Generic.List<object>? ListType6 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.CreditAddTransactionRead>? ListType7 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.SlideContentUpdate>? ListType7 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.EnterprisePresentationRead>? ListType8 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.CreditAddTransactionRead>? ListType8 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.EnterpriseUserAccessTokenRead>? ListType9 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.EnterprisePresentationRead>? ListType9 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.UserRead>? ListType10 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.EnterpriseUserAccessTokenRead>? ListType10 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.DesignSystemSlideInput>? ListType11 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.UserRead>? ListType11 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::System.Collections.Generic.Dictionary<string, string>>? ListType12 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.FontInfo>? ListType12 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.FontInfo>? ListType13 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.FontDetail>? ListType13 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.FontDetail>? ListType14 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.SlideContentLayout>? ListType14 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.SlideContentLayout>? ListType15 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.TemplateLayoutData>? ListType15 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.LayoutData>? ListType16 { get; set; }
+        public global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object, object>? ListType16 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object, object>? ListType17 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.ValidationError>? ListType17 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.PresentationSummary>? ListType18 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.SlideLayoutModel>? ListType18 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.TemplateLayoutData>? ListType19 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.HTMLSlideV2>? ListType19 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.ValidationError>? ListType20 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.SaveDesignReferenceData>? ListType20 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.PdfSlideData>? ListType21 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.SaveTemplateLayoutData>? ListType21 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.SlideData>? ListType22 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.SlideExample>? ListType22 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.SlideLayoutModel>? ListType23 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.AnyOf<string, int?>>? ListType23 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.HTMLSlideV2>? ListType24 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.AccessToken>? ListType24 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.SaveTemplateLayoutData>? ListType25 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.DecomposedFileInfo>? ListType25 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.SlideExample>? ListType26 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.TemplateDetail>? ListType26 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.AnyOf<string, int?>>? ListType27 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.GetTemplateLayoutsResponse>? ListType27 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.AccessToken>? ListType28 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.DefaultPresentationThemeResponse>? ListType28 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.DecomposedFileInfo>? ListType29 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.PresentationThemeResponse>? ListType29 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.TemplateDetail>? ListType30 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.PriceItem>? ListType30 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.DefaultPresentationThemeModel>? ListType31 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.PresentationPathAndEditPath>? ListType31 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.PresentationThemeModel>? ListType32 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.APIErrorModel>? ListType32 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.PriceItem>? ListType33 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.OnboardingQuestion>? ListType33 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.PresentationPathAndEditPath>? ListType34 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.ChatConversationListItem>? ListType34 { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.APIErrorModel>? ListType35 { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.OnboardingQuestion>? ListType36 { get; set; }
-        /// <summary>
-        /// 
-        /// </summary>
-        public global::System.Collections.Generic.List<global::Presenton.SubscribeToWebhookResponseV1>? ListType37 { get; set; }
+        public global::System.Collections.Generic.List<global::Presenton.SubscribeToWebhookResponseV1>? ListType35 { get; set; }
     }
 }

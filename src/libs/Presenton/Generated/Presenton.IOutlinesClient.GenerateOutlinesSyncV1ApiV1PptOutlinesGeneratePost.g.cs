@@ -40,6 +40,9 @@ namespace Presenton
         /// <param name="nSlides">
         /// The number of slides to generate
         /// </param>
+        /// <param name="design">
+        /// Optional design ID to use for outline generation
+        /// </param>
         /// <param name="language">
         /// The language for the presentation
         /// </param>
@@ -72,6 +75,7 @@ namespace Presenton
             string? content = default,
             global::System.Collections.Generic.IList<string>? files = default,
             int? nSlides = default,
+            global::System.Guid? design = default,
             string? language = default,
             global::Presenton.Tone? tone = default,
             global::Presenton.Verbosity? verbosity = default,
