@@ -139,12 +139,40 @@ namespace Presenton
                     __httpRequest.Headers.Add(__authorization.Name, __authorization.Value);
                 } 
             }
-                            var __httpRequestContentBody = request.ToJson(JsonSerializerContext);
-                            var __httpRequestContent = new global::System.Net.Http.StringContent(
-                                content: __httpRequestContentBody,
-                                encoding: global::System.Text.Encoding.UTF8,
-                                mediaType: "application/x-www-form-urlencoded");
+                            var __formValues = new global::System.Collections.Generic.List<global::System.Collections.Generic.KeyValuePair<string, string>>();
+                            if (request.GrantType != default)
+                            {
+                                __formValues.Add(new global::System.Collections.Generic.KeyValuePair<string, string>(
+                                    "grant_type",
+                                    request.GrantType ?? string.Empty));
+                            }
+                            __formValues.Add(new global::System.Collections.Generic.KeyValuePair<string, string>(
+                                "username",
+                                request.Username ?? string.Empty));
+                            __formValues.Add(new global::System.Collections.Generic.KeyValuePair<string, string>(
+                                "password",
+                                request.Password));
+                            if (request.Scope != default)
+                            {
+                                __formValues.Add(new global::System.Collections.Generic.KeyValuePair<string, string>(
+                                    "scope",
+                                    request.Scope ?? string.Empty));
+                            }
+                            if (request.ClientId != default)
+                            {
+                                __formValues.Add(new global::System.Collections.Generic.KeyValuePair<string, string>(
+                                    "client_id",
+                                    request.ClientId ?? string.Empty));
+                            }
+                            if (request.ClientSecret != default)
+                            {
+                                __formValues.Add(new global::System.Collections.Generic.KeyValuePair<string, string>(
+                                    "client_secret",
+                                    request.ClientSecret ?? string.Empty));
+                            }
+                            var __httpRequestContent = new global::System.Net.Http.FormUrlEncodedContent(__formValues);
                             __httpRequest.Content = __httpRequestContent;
+
                 global::Presenton.AutoSDKRequestOptionsSupport.ApplyHeaders(
                     request: __httpRequest,
                     clientHeaders: Options.Headers,
