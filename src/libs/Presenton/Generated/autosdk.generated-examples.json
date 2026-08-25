@@ -6,7 +6,7 @@
       "Slug": "auth-jwt-login-api-v1-auth-jwt-login-post",
       "Description": "Generated from OpenAPI examples.",
       "Language": "http",
-      "Code": "### Auth:Jwt.Login\n# @name auth_jwt_login_api_v1_auth_jwt_login_post\nPOST {{host}}/api/v1/auth/jwt/login\nAuthorization: Bearer {{token}}\nContent-Type: application/x-www-form-urlencoded\nAccept: application/json\n\n## Responses\n# 200\n# Description: Successful Response\n# Content-Type: application/json\n# 400\n# Description: Bad Request\n# Content-Type: application/json\n# 422\n# Description: Validation Error\n# Content-Type: application/json",
+      "Code": "### Auth:Jwt.Login\n# @name auth_jwt_login_api_v1_auth_jwt_login_post\nPOST {{host}}/api/v1/auth/jwt/login\nAuthorization: Bearer {{token}}\nContent-Type: application/x-www-form-urlencoded\nAccept: application/json\n\ngrant_type=string\u0026username=string\u0026password=string\u0026scope=\u0026client_id=string\u0026client_secret=string\n\n## Responses\n# 200\n# Description: Successful Response\n# Content-Type: application/json\n# 400\n# Description: Bad Request\n# Content-Type: application/json\n# 422\n# Description: Validation Error\n# Content-Type: application/json",
       "Format": "http",
       "OperationId": "auth_jwt_login_api_v1_auth_jwt_login_post",
       "Setup": null
