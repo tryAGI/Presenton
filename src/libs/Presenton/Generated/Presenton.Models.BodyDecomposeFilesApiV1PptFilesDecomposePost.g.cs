@@ -4,12 +4,12 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class BodyDecomposeFilesApiV1PptFilesDecomposePost
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("file_paths")]
         [global::System.Text.Json.Serialization.JsonRequired]

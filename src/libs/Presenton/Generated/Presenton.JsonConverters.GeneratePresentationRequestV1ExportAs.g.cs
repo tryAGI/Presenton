@@ -20,7 +20,7 @@ namespace Presenton.JsonConverters
                     {
                         return global::Presenton.GeneratePresentationRequestV1ExportAsExtensions.ToEnum(stringValue) ?? default;
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

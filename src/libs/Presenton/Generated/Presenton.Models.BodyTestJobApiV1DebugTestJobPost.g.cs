@@ -4,12 +4,12 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class BodyTestJobApiV1DebugTestJobPost
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("token")]
         [global::System.Text.Json.Serialization.JsonRequired]

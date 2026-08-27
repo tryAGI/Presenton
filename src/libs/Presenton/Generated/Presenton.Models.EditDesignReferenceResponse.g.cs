@@ -4,19 +4,19 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class EditDesignReferenceResponse
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("html")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Html { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("structure")]
         [global::System.Text.Json.Serialization.JsonRequired]

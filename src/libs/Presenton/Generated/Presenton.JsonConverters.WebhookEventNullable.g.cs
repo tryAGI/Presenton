@@ -20,7 +20,7 @@ namespace Presenton.JsonConverters
                     {
                         return global::Presenton.WebhookEventExtensions.ToEnum(stringValue);
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

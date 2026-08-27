@@ -4,19 +4,19 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class BodyPresentationExportApiV1OnPresentationExportPost
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("presentation_id")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::System.Guid PresentationId { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("export_as")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Presenton.JsonConverters.BodyPresentationExportApiV1OnPresentationExportPostExportAsJsonConverter))]
@@ -24,7 +24,7 @@ namespace Presenton
         public required global::Presenton.BodyPresentationExportApiV1OnPresentationExportPostExportAs ExportAs { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("url")]
         [global::System.Text.Json.Serialization.JsonRequired]

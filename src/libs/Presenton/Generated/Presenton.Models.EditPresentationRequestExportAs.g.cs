@@ -10,15 +10,15 @@ namespace Presenton
     public enum EditPresentationRequestExportAs
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pdf,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Png,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pptx,
     }

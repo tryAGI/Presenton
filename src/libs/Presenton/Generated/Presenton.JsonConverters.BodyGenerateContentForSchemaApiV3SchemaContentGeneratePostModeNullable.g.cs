@@ -20,7 +20,7 @@ namespace Presenton.JsonConverters
                     {
                         return global::Presenton.BodyGenerateContentForSchemaApiV3SchemaContentGeneratePostModeExtensions.ToEnum(stringValue);
                     }
-                    
+
                     break;
                 }
                 case global::System.Text.Json.JsonTokenType.Number:

@@ -4,12 +4,12 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class GetMultipleTemplateLayoutsRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("template_ids")]
         [global::System.Text.Json.Serialization.JsonRequired]

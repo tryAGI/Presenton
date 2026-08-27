@@ -4,26 +4,26 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class CreditsRatesAndAutoTopupInfoResponse
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("rates")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::Presenton.CreditsRate Rates { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("auto_topup")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::Presenton.TopupInfo AutoTopup { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("has_payment_method")]
         [global::System.Text.Json.Serialization.JsonRequired]

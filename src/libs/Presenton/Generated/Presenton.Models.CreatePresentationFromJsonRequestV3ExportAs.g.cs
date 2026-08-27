@@ -10,15 +10,15 @@ namespace Presenton
     public enum CreatePresentationFromJsonRequestV3ExportAs
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pdf,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Png,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pptx,
     }

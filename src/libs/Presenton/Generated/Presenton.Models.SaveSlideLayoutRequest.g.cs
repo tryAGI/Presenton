@@ -4,26 +4,26 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class SaveSlideLayoutRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("template_id")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::System.Guid TemplateId { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("layout_id")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string LayoutId { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("layout_code")]
         [global::System.Text.Json.Serialization.JsonRequired]

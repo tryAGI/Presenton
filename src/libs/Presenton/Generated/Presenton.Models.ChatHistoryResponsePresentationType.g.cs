@@ -9,11 +9,11 @@ namespace Presenton
     public enum ChatHistoryResponsePresentationType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Smart,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Standard,
     }

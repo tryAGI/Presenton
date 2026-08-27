@@ -4,32 +4,32 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum Tone
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Casual,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Default,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Educational,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Funny,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Professional,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         SalesPitch,
     }

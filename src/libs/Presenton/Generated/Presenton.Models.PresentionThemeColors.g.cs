@@ -4,117 +4,117 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class PresentionThemeColors
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("primary")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Primary { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("background")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Background { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("card")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Card { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("stroke")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Stroke { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("primary_text")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string PrimaryText { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("background_text")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string BackgroundText { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_0")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph0 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_1")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph1 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_2")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph2 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_3")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph3 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_4")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph4 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_5")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph5 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_6")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph6 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_7")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph7 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_8")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Graph8 { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("graph_9")]
         [global::System.Text.Json.Serialization.JsonRequired]

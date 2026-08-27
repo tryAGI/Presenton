@@ -4,7 +4,7 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class PresentationExportApiV1OnPresentationExportPostResponse
     {

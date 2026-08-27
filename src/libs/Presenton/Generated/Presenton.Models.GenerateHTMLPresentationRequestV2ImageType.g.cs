@@ -9,11 +9,11 @@ namespace Presenton
     public enum GenerateHTMLPresentationRequestV2ImageType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         AiGenerated,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Stock,
     }

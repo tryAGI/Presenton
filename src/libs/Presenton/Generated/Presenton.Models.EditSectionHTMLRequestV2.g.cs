@@ -4,33 +4,33 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class EditSectionHTMLRequestV2
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("slide_id")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required global::System.Guid SlideId { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("complete_code")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string CompleteCode { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("section_code")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string SectionCode { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("edit_prompt")]
         [global::System.Text.Json.Serialization.JsonRequired]

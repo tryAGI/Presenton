@@ -4,24 +4,24 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class DesignExportInfo
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("embedded_eot_fonts")]
         public global::System.Collections.Generic.IList<string>? EmbeddedEotFonts { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("embedded_fonts_info")]
         public global::System.Collections.Generic.IList<object>? EmbeddedFontsInfo { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("theme_archive_url")]
         public string? ThemeArchiveUrl { get; set; }
