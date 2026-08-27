@@ -9,15 +9,15 @@ namespace Presenton
     public enum BodyExportPresentationAsPptxOrPdfV3ApiV3PresentationExportPostExportAs
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pdf,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Png,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Pptx,
     }

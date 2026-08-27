@@ -4,33 +4,33 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class CreditsRate
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("below_25_cost")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required double Below25Cost { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("below_50_cost")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required double Below50Cost { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("below_100_cost")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required double Below100Cost { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("above_100_cost")]
         [global::System.Text.Json.Serialization.JsonRequired]

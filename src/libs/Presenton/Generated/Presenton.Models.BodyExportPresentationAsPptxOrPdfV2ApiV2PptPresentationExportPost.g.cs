@@ -4,7 +4,7 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class BodyExportPresentationAsPptxOrPdfV2ApiV2PptPresentationExportPost
     {

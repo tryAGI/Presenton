@@ -9,11 +9,11 @@ namespace Presenton
     public enum BodyCreatePresentationApiV1PptPresentationCreatePostImageType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         AiGenerated,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Stock,
     }

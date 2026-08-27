@@ -4,20 +4,20 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum Device
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Linux,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Macos,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Windows,
     }

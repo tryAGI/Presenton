@@ -10,7 +10,7 @@ namespace Presenton
     public sealed partial class V3SmartDesignClient : global::Presenton.IV3SmartDesignClient, global::System.IDisposable
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public const string DefaultBaseUrl = "https://api.presenton.ai/";
 
@@ -37,7 +37,7 @@ namespace Presenton
         internal global::System.Lazy<global::System.Text.Json.Serialization.JsonSerializerContext> JsonSerializerContextProvider { get; set; } = new(() => global::Presenton.SourceGenerationContext.Default);
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public global::System.Text.Json.Serialization.JsonSerializerContext JsonSerializerContext
         {

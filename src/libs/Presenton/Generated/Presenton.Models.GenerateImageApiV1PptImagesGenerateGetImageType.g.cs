@@ -9,11 +9,11 @@ namespace Presenton
     public enum GenerateImageApiV1PptImagesGenerateGetImageType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         AiGenerated,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Stock,
     }

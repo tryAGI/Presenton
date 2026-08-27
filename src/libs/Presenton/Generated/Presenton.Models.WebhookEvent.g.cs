@@ -4,16 +4,16 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum WebhookEvent
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         PresentationGenerationCompleted,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         PresentationGenerationFailed,
     }

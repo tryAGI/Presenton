@@ -39,198 +39,198 @@ namespace Presenton
 
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         global::System.Text.Json.Serialization.JsonSerializerContext JsonSerializerContext { get; set; }
 
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public AuthClient Auth { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public BillingClient Billing { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ChatClient Chat { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public CreditClient Credit { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public DebugClient Debug { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public DownloadsClient Downloads { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public FilesClient Files { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public FontsClient Fonts { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public HealthClient Health { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public IconsClient Icons { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ImagesClient Images { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public MockClient Mock { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public OutlinesClient Outlines { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public PresentationClient Presentation { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public SlideClient Slide { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public TemplateClient Template { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public ThemesClient Themes { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V1OnClient V1On { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V2DesignClient V2Design { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V2FixSlideClient V2FixSlide { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V2FontsClient V2Fonts { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V2OnClient V2On { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V2OnboardingClient V2Onboarding { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V2PresentationClient V2Presentation { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V2SlideClient V2Slide { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3AsyncTaskClient V3AsyncTask { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3EnterpriseClient V3Enterprise { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3FilesClient V3Files { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3GitHubClient V3GitHub { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3ImagesClient V3Images { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3PlaygroundClient V3Playground { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3PresentationClient V3Presentation { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3SchemaClient V3Schema { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3SmartDesignClient V3SmartDesign { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3StandardTemplateClient V3StandardTemplate { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3ThemeClient V3Theme { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public V3WebhookClient V3Webhook { get; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public WebhookClient Webhook { get; }
 

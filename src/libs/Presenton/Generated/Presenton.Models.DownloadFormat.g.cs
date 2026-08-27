@@ -4,24 +4,24 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum DownloadFormat
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Appimage,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Deb,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Dmg,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Exe,
     }

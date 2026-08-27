@@ -4,19 +4,19 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class BodyCheckFontsInPptxHandlerApiV1PptFontsCheckPost
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("pptx_file")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required byte[] PptxFile { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("pptx_filename")]
         [global::System.Text.Json.Serialization.JsonRequired]

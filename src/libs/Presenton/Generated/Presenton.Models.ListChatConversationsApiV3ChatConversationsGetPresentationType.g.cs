@@ -10,11 +10,11 @@ namespace Presenton
     public enum ListChatConversationsApiV3ChatConversationsGetPresentationType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Smart,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Standard,
     }

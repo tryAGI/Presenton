@@ -4,12 +4,12 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class CreateCheckoutSessionRequest
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("price_id")]
         [global::System.Text.Json.Serialization.JsonRequired]
@@ -28,14 +28,14 @@ namespace Presenton
         public int? Quantity { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("success_url")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string SuccessUrl { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("cancel_url")]
         [global::System.Text.Json.Serialization.JsonRequired]

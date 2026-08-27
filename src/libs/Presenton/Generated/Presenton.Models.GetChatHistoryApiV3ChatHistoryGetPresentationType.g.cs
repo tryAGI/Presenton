@@ -10,11 +10,11 @@ namespace Presenton
     public enum GetChatHistoryApiV3ChatHistoryGetPresentationType
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Smart,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Standard,
     }

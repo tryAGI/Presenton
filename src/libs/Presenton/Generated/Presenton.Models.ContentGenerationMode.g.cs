@@ -4,20 +4,20 @@
 namespace Presenton
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public enum ContentGenerationMode
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Condense,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Enhance,
         /// <summary>
-        /// 
+        ///
         /// </summary>
         Preserve,
     }
