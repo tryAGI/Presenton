@@ -311,7 +311,7 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditSlideLayoutSectionRequest))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditSlideLayoutSectionResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditSlideRequest))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditSlideRequestExportAs2))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EditSlideRequestExportAs2), TypeInfoPropertyName = "EditSlideRequestExportAs22")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EnterpriseCreditsAddResponse))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.UserRead))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.EnterpriseCreditsAddsResponse))]
