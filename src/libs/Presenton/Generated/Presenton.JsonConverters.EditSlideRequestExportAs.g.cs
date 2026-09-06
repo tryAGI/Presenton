@@ -3,10 +3,10 @@
 namespace Presenton.JsonConverters
 {
     /// <inheritdoc />
-    public sealed class EditSlideRequestExportAs2NullableJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Presenton.EditSlideRequestExportAs2?>
+    public sealed class EditSlideRequestExportAsJsonConverter : global::System.Text.Json.Serialization.JsonConverter<global::Presenton.EditSlideRequestExportAs>
     {
         /// <inheritdoc />
-        public override global::Presenton.EditSlideRequestExportAs2? Read(
+        public override global::Presenton.EditSlideRequestExportAs Read(
             ref global::System.Text.Json.Utf8JsonReader reader,
             global::System.Type typeToConvert,
             global::System.Text.Json.JsonSerializerOptions options)
@@ -18,7 +18,7 @@ namespace Presenton.JsonConverters
                     var stringValue = reader.GetString();
                     if (stringValue != null)
                     {
-                        return global::Presenton.EditSlideRequestExportAs2Extensions.ToEnum(stringValue);
+                        return global::Presenton.EditSlideRequestExportAsExtensions.ToEnum(stringValue) ?? default;
                     }
 
                     break;
@@ -26,11 +26,11 @@ namespace Presenton.JsonConverters
                 case global::System.Text.Json.JsonTokenType.Number:
                 {
                     var numValue = reader.GetInt32();
-                    return (global::Presenton.EditSlideRequestExportAs2)numValue;
+                    return (global::Presenton.EditSlideRequestExportAs)numValue;
                 }
                 case global::System.Text.Json.JsonTokenType.Null:
                 {
-                    return default(global::Presenton.EditSlideRequestExportAs2?);
+                    return default(global::Presenton.EditSlideRequestExportAs);
                 }
                 default:
                     throw new global::System.ArgumentOutOfRangeException(nameof(reader));
@@ -42,19 +42,12 @@ namespace Presenton.JsonConverters
         /// <inheritdoc />
         public override void Write(
             global::System.Text.Json.Utf8JsonWriter writer,
-            global::Presenton.EditSlideRequestExportAs2? value,
+            global::Presenton.EditSlideRequestExportAs value,
             global::System.Text.Json.JsonSerializerOptions options)
         {
             writer = writer ?? throw new global::System.ArgumentNullException(nameof(writer));
 
-            if (value == null)
-            {
-                writer.WriteNullValue();
-            }
-            else
-            {
-                writer.WriteStringValue(global::Presenton.EditSlideRequestExportAs2Extensions.ToValueString(value.Value));
-            }
+            writer.WriteStringValue(global::Presenton.EditSlideRequestExportAsExtensions.ToValueString(value));
         }
     }
 }

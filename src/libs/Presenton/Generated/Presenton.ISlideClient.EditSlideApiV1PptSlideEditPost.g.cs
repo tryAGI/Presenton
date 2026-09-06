@@ -76,7 +76,7 @@ namespace Presenton
             global::System.Guid? id = default,
             global::System.Guid? presentationId = default,
             int? slideIndex = default,
-            global::Presenton.EditSlideRequestExportAs2? exportAs = default,
+            global::Presenton.EditSlideRequestExportAs? exportAs = default,
             global::Presenton.AutoSDKRequestOptions? requestOptions = default,
             global::System.Threading.CancellationToken cancellationToken = default);
     }
