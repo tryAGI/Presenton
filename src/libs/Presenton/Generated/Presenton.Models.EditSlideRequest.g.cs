@@ -38,7 +38,7 @@ namespace Presenton
         /// Default Value: pptx
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("export_as")]
-        public global::Presenton.EditSlideRequestExportAs2? ExportAs { get; set; }
+        public global::Presenton.EditSlideRequestExportAs? ExportAs { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -73,7 +73,7 @@ namespace Presenton
             global::System.Guid? id,
             global::System.Guid? presentationId,
             int? slideIndex,
-            global::Presenton.EditSlideRequestExportAs2? exportAs)
+            global::Presenton.EditSlideRequestExportAs? exportAs)
         {
             this.Id = id;
             this.PresentationId = presentationId;

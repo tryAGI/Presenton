@@ -560,7 +560,7 @@ namespace Presenton
         public async global::System.Threading.Tasks.Task<global::Presenton.AsyncTaskModel> GeneratePresentationAsyncV1ApiV1PptPresentationGenerateAsyncPostAsync(
             string? content = default,
             global::System.Collections.Generic.IList<string>? slidesMarkdown = default,
-            global::System.Collections.Generic.IList<string>? slidesLayout = default,
+            global::System.Collections.Generic.IList<string?>? slidesLayout = default,
             int? nSlides = default,
             string? instructions = default,
             global::Presenton.Tone? tone = default,

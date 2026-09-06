@@ -24,7 +24,7 @@ namespace Presenton
         /// The layout for each slides
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("slides_layout")]
-        public global::System.Collections.Generic.IList<string>? SlidesLayout { get; set; }
+        public global::System.Collections.Generic.IList<string?>? SlidesLayout { get; set; }
 
         /// <summary>
         /// Number of slides to generate
@@ -229,7 +229,7 @@ namespace Presenton
         public GeneratePresentationRequestV1(
             string? content,
             global::System.Collections.Generic.IList<string>? slidesMarkdown,
-            global::System.Collections.Generic.IList<string>? slidesLayout,
+            global::System.Collections.Generic.IList<string?>? slidesLayout,
             int? nSlides,
             string? instructions,
             global::Presenton.Tone? tone,

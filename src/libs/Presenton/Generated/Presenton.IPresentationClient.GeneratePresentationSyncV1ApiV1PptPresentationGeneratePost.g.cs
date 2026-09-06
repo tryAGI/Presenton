@@ -117,7 +117,7 @@ namespace Presenton
         global::System.Threading.Tasks.Task<global::Presenton.PresentationPathAndEditPath> GeneratePresentationSyncV1ApiV1PptPresentationGeneratePostAsync(
             string? content = default,
             global::System.Collections.Generic.IList<string>? slidesMarkdown = default,
-            global::System.Collections.Generic.IList<string>? slidesLayout = default,
+            global::System.Collections.Generic.IList<string?>? slidesLayout = default,
             int? nSlides = default,
             string? instructions = default,
             global::Presenton.Tone? tone = default,
