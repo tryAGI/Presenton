@@ -124,7 +124,7 @@ namespace Presenton
                                 path: "/api/v3/chat/conversations",
                                 baseUri: HttpClient.BaseAddress);
                             __pathBuilder
-                                .AddRequiredParameter("presentation_id", presentationId.ToString()!)
+                                .AddRequiredParameter("presentation_id", presentationId.ToString() ?? throw new global::System.InvalidOperationException("A required query parameter returned null from ToString()."))
                                 .AddOptionalParameter("presentation_type", presentationType?.ToValueString())
                                 ;
                             var __path = __pathBuilder.ToString();
@@ -167,7 +167,7 @@ namespace Presenton
                 PrepareListChatConversationsApiV3ChatConversationsGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    presentationId: presentationId!,
+                    presentationId: presentationId,
                     presentationType: presentationType);
 
                 return __httpRequest;
@@ -190,7 +190,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v3/chat/conversations\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: null,
                                 exception: null,
                                 clientOptions: Options,
@@ -224,7 +224,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v3/chat/conversations\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: null,
                                 exception: __exception,
                                 clientOptions: Options,
@@ -265,7 +265,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v3/chat/conversations\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
@@ -313,7 +313,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v3/chat/conversations\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
@@ -335,7 +335,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v3/chat/conversations\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
