@@ -110,7 +110,7 @@ namespace Presenton
                                 path: "/api/v2/ppt/fix-slide/fix",
                                 baseUri: HttpClient.BaseAddress);
                             __pathBuilder
-                                .AddRequiredParameter("key", key.ToString()!)
+                                .AddRequiredParameter("key", key.ToString() ?? throw new global::System.InvalidOperationException("A required query parameter returned null from ToString()."))
                                 ;
                             var __path = __pathBuilder.ToString();
                 __path = global::Presenton.AutoSDKRequestOptionsSupport.AppendQueryParameters(
@@ -152,7 +152,7 @@ namespace Presenton
                 PrepareGetFixHtmlApiV2PptFixSlideFixGetRequest(
                     httpClient: HttpClient,
                     httpRequestMessage: __httpRequest,
-                    key: key!);
+                    key: key);
 
                 return __httpRequest;
             }
@@ -174,7 +174,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v2/ppt/fix-slide/fix\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: null,
                                 exception: null,
                                 clientOptions: Options,
@@ -208,7 +208,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v2/ppt/fix-slide/fix\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: null,
                                 exception: __exception,
                                 clientOptions: Options,
@@ -249,7 +249,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v2/ppt/fix-slide/fix\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
@@ -297,7 +297,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v2/ppt/fix-slide/fix\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
@@ -319,7 +319,7 @@ namespace Presenton
                                 pathTemplate: "\"/api/v2/ppt/fix-slide/fix\"",
                                 httpMethod: "GET",
                                 baseUri: BaseUri,
-                                request: __httpRequest!,
+                                request: __httpRequest ?? throw new global::System.InvalidOperationException("The HTTP request was not created before invoking a request hook."),
                                 response: __response,
                                 exception: null,
                                 clientOptions: Options,
