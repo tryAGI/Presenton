@@ -873,7 +873,7 @@ namespace Presenton
         /// <summary>
         ///
         /// </summary>
-        public global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>? Type210 { get; set; }
+        public global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object>? Type210 { get; set; }
         /// <summary>
         ///
         /// </summary>
@@ -1222,7 +1222,7 @@ namespace Presenton
         /// <summary>
         ///
         /// </summary>
-        public global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object, object>? ListType15 { get; set; }
+        public global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object>? ListType15 { get; set; }
         /// <summary>
         ///
         /// </summary>

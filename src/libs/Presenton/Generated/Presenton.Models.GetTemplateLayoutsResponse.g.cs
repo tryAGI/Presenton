@@ -25,8 +25,8 @@ namespace Presenton
         ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("fonts")]
-        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>))]
-        public global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>? Fonts { get; set; }
+        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object>))]
+        public global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object>? Fonts { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -46,7 +46,7 @@ namespace Presenton
         public GetTemplateLayoutsResponse(
             global::System.Collections.Generic.IList<global::Presenton.TemplateLayoutData> layouts,
             global::Presenton.TemplateData? template,
-            global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>? fonts)
+            global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object>? fonts)
         {
             this.Layouts = layouts ?? throw new global::System.ArgumentNullException(nameof(layouts));
             this.Template = template;

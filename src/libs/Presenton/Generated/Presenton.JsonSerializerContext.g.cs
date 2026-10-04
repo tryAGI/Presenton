@@ -145,9 +145,9 @@ namespace Presenton
 
             typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.Dictionary<string, string>>),
 
-            typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>),
+            typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object>),
 
-            typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>),
+            typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object>),
 
             typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<string, int?>),
 
@@ -372,7 +372,7 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.TemplateLayoutData>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateLayoutData))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateData))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>), TypeInfoPropertyName = "AnyOfIListStringObjectObject2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object>), TypeInfoPropertyName = "AnyOfIListStringObject2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HTMLDesignV2Detail))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HTMLSlideV2))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HTTPValidationError))]
@@ -460,7 +460,7 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<string?>), TypeInfoPropertyName = "ListString_System_Collections_Generic_List_string_3")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideContentLayout>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.TemplateLayoutData>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object, object>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.ValidationError>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideLayoutModel>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.HTMLSlideV2>))]

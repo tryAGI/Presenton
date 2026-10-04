@@ -39,7 +39,7 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.TemplateLayoutData>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateLayoutData))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.TemplateData))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>), TypeInfoPropertyName = "AnyOfIListStringObjectObject2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object>), TypeInfoPropertyName = "AnyOfIListStringObject2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.HTTPValidationError))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.IList<global::Presenton.ValidationError>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.ValidationError))]
@@ -63,12 +63,12 @@ namespace Presenton
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Guid?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.DateTime?))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(bool?))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>?), TypeInfoPropertyName = "NullableAnyOfIListStringObjectObject2")]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object>?), TypeInfoPropertyName = "NullableAnyOfIListStringObject2")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<string, int?>?), TypeInfoPropertyName = "NullableAnyOfStringInt322")]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<string>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<byte[]>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.TemplateLayoutData>))]
-    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object, object>))]
+    [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::Presenton.AnyOf<global::System.Collections.Generic.List<string>, object>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.ValidationError>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SlideLayoutModel>))]
     [global::System.Text.Json.Serialization.JsonSerializable(typeof(global::System.Collections.Generic.List<global::Presenton.SaveTemplateLayoutData>))]
@@ -124,8 +124,8 @@ namespace Presenton
         public static void AddConverters(global::System.Text.Json.JsonSerializerOptions options)
         {
             options.Converters.Add(new global::Presenton.JsonConverters.AnyOfJsonConverter<string, global::System.Collections.Generic.Dictionary<string, string>>());
-            options.Converters.Add(new global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>());
-            options.Converters.Add(new global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>());
+            options.Converters.Add(new global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object>());
+            options.Converters.Add(new global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object>());
             options.Converters.Add(new global::Presenton.JsonConverters.AnyOfJsonConverter<string, int?>());
             options.Converters.Add(new global::Presenton.JsonConverters.UnixTimestampJsonConverter());
         }
