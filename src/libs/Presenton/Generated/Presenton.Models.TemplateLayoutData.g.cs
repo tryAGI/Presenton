@@ -40,8 +40,8 @@ namespace Presenton
         ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("fonts")]
-        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object, object>))]
-        public global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>? Fonts { get; set; }
+        [global::System.Text.Json.Serialization.JsonConverter(typeof(global::Presenton.JsonConverters.AnyOfJsonConverter<global::System.Collections.Generic.IList<string>, object>))]
+        public global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object>? Fonts { get; set; }
 
         /// <summary>
         /// Additional properties that are not explicitly defined in the schema
@@ -65,7 +65,7 @@ namespace Presenton
             string layoutId,
             string layoutName,
             string layoutCode,
-            global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object, object>? fonts)
+            global::Presenton.AnyOf<global::System.Collections.Generic.IList<string>, object>? fonts)
         {
             this.Template = template;
             this.LayoutId = layoutId ?? throw new global::System.ArgumentNullException(nameof(layoutId));
